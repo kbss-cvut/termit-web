@@ -23,3 +23,5 @@ For including images use:
 ```
 {% include figure image_path="/assets/images/image.jpg" alt="this is a placeholder image" caption="This is a figure caption." %}
 ```
+
+**Do not change anything else than content of [_pages][_pages] and [assets/images][assets/images]**
