@@ -1,0 +1,19 @@
+# main links
+main:
+  - title: "Quick-Start Guide, pak smazat"
+    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "About"
+    url: /about
+    description: "About the TermIt project"
+  - title: "Install"
+    url: /install
+    description: "Installation guide"
+  - title: "Tutorial"
+    url: /tutorial
+    description: "Tutorials on usage of TermIt"
+  - title: "Deployments"
+    url: /deployments
+    description: "Running deployments"
+  - title: "Data Model"
+    url: /data-model
+    description: "Data model used in TermIt"
