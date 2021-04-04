@@ -28,3 +28,6 @@ For including images use:
 ```
 
 **Do not change anything else than content of [_pages][_pages] and [assets/images][assets/images]**
+
+In the first section - Quick-start guide, you can find help.
+We must remove it before it is done.

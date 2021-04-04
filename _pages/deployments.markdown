@@ -27,7 +27,9 @@ feature_row2:
     url: /link-na-kodi
 ---
 # Running deployments
-This page displays current deployments. Some bullshity text about how we totaly rock in running developments.
+This page displays current deployments.
+
+TermIt is partly modular system and we can deploy it specifically for your needs.
 
 {% include feature_row type="right"%}
 {% include feature_row id="feature_row2" type="left"%}
