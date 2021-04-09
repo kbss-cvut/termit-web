@@ -10,8 +10,7 @@ header:
   caption: "Photo credit: [**Toby56**](https://unsplash.com/@toby56?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [**Unsplash**](http://unsplash.com/)"
 ---
 
-TermIt is an information system with a strong formal background. This page contains some technical background of TermIt. 
-It describes the architecture of the system, interesting technologies it uses, and the data model at its core.
+This page contains some technical background of TermIt. It describes the architecture of the system, interesting technologies it uses, and the data model at its core.
 
 
 # Technologies and Architecture
@@ -38,11 +37,11 @@ and the vast ecosystem of libraries one can utilize.
 
 The frontend source code can be found in its [GitHub repository](https://github.com/kbss-cvut/termit-ui), which also contains some basic developer documentation.
 
-### Annotace
+### Integration with Annotace
 
 One of the more interesting features of TermIt is its ability to analyze content of document in order to find occurrences of terms and suggest new terms based on their
-significance in the text. Our goal in this regard was to not create a monolith. Instead, the text analysis functionality has been developed separately to enable its
-reuse. This library is called **Annotace**, it is open source and can be found on [GitHub](https://github.com/kbss-cvut/annotace) as well.
+significance in the text. The text analysis functionality has been developed separately to enable its reuse. 
+This library is called **Annotace**, it is open source and can be found on [GitHub](https://github.com/kbss-cvut/annotace) as well.
 
 
 ## Interesting Libraries
