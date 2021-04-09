@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: single
-#title: Technical information
+#title: Technical Details
 permalink: /technical-info
 header:
   image: /assets/images/data-model-header.jpg
@@ -18,7 +18,9 @@ It describes the architecture of the system, interesting technologies it uses, a
 
 ## Overview
 
-Technically, TermIt is a Web application. The system is split into two sub-projects, one representing the backend and the other representing the frontend.
+Technically, TermIt is a Web application. The system is split into two sub-projects, one representing the backend and the other representing the frontend. The overall
+architecture of TermIt can be seen in the following component diagram.
+image: /assets/images/technical-details/termit-architecture.png
 
 ### TermIt Backend
 
