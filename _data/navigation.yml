@@ -14,6 +14,6 @@ main:
   - title: "Deployments"
     url: /deployments
     description: "Running deployments"
-  - title: "Data Model"
-    url: /data-model
-    description: "Data model used in TermIt"
+  - title: "Technical details"
+    url: /technical-details
+    description: "Technical details about TermIt"

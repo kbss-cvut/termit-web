@@ -20,7 +20,7 @@ title                    : "TermIt"
 title_separator          : "|"
 subtitle                 : Manage your terms
 name                     : "Knowledge-based and Software Systems Group"
-description              : "TermIt is a tool to manage vocabularies, terms and resources in which are the terms defined and used. It is focused on managment of terms based on their semantics -- i.e. two 'same' terms in different vocabularies may have different menaing."
+description              : "TermIt is a tool to manage vocabularies, terms and resources in which are the terms defined and used. It is focused on management of terms based on their semantics -- i.e. two 'same' terms in different vocabularies may have different meaning."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
