@@ -15,6 +15,10 @@ header:
 
 TermIt can be easily setup through Docker Compose, setting up all necessary services and dependencies. Details are described [here](https://github.com/kbss-cvut/termit-docker).
 
-An alternative (more complicated) is to install and wire up the services independently. Follow individual instructions for setting up each of the services.
+An alternative (more complicated) is to install and wire up the services independently. Follow individual installation instructions for setting up each service:
 - [TermIt](https://github.com/kbss-cvut/termit-ui)
 - [TermIt Server](https://github.com/kbss-cvut/termit)
+
+# Contributing
+
+Do You want to contribute? Feel free to fork the respective repository ([frontend](https://github.com/kbss-cvut/termit-ui) or [backend](https://github.com/kbss-cvut/termit)) and open a pull request with Your contribution.
