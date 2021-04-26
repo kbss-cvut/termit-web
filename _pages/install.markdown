@@ -13,18 +13,8 @@ header:
 
 # Installation
 
-This page describes the installation process.
+TermIt can be easily setup through Docker Compose, setting up all necessary services and dependencies. Details are described [here](https://github.com/kbss-cvut/termit-docker).
 
-## Download
-Fork from GitHub.
-
-## Install
-Dockerization
-
-### First step
-
-Some latin words
-
-### Second step
-
-Orbis pictus
+An alternative (more complicated) is to install and wire up the services independently. Follow individual installation instructions for setting up each service:
+- [TermIt](https://github.com/kbss-cvut/termit-ui)
+- [TermIt Server](https://github.com/kbss-cvut/termit)
