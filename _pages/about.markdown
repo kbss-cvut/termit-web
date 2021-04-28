@@ -19,6 +19,13 @@ Download and try  basic version. Feel free to contact us, if there is something 
 
 This page shall contain the basic information about pages, termit and our organization.
 
+# Contributing
+
+Do You want to contribute? Feel free to fork the respective repository 
+- [frontend](https://github.com/kbss-cvut/termit-ui)
+- [backend](https://github.com/kbss-cvut/termit)
+- [docker instrumentation](https://github.com/kbss-cvut/termit-docker) 
+and open a pull request with Your contribution.
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
