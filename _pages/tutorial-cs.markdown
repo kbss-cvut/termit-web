@@ -4,7 +4,7 @@
 
 layout: single
 # title: Tutorial
-classes: wide
+# classes: wide
 permalink: /tutorial-cs
 toc: true
 header:
