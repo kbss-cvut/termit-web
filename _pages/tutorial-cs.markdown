@@ -26,14 +26,14 @@ Na stránce <a href="https://termit.fel.cvut.cz/dev/ipr/">https://termit.fel.cvu
 * s uživatelskými právy typu "Čtenář" -- uživatel jse schopen procházet slovníky, pojmy i datové zdroje. Dále vidí rozšířené vlastnosti pojmů i slovníků, může zobrazit definici pojmu v dokumentu a jednotlivé pojmy komentovat. Nemůže pojmy ani slovníky editovat a nemůže anotovat dokumenty. Tento režim slouží pro odborné uživatele, kteří se chtějí k pojmům a slovníkům vyjadřovat, ale nechtějí je přímo editovat,
 * s uživatelskými právy typu "Editor" -- uživatel má plný přístup k editace všech slovníků i pojmů a může anotovat dokumenty. Tento režim je určen pro doménové experty, kteří ovládají doménu slovníku a jsou jeho hlavními tvůrci,
 * s uživatelskými právy typu "Administrátor" -- tento uživatel má plný přístup ke všem slovníkům, pojmům i datovým zdrojům, navíc může vytvářet nové uživatele a přidělovat jim uživatelská práva.
-Přestože se jedná o vývojovou verzi systému, nedoporučujeme dělat změny ve slovnících, které již existují. Pro experimentování si vytvořte vlastní slovník, nebo si naisntalujte vlastní instanci systému TermIt (podle návodu v <a href="/install">záložce Instalace</a>).
+Přestože se jedná o vývojovou verzi systému, nedoporučujeme dělat změny ve slovnících, které již existují. Pro experimentování si vytvořte vlastní slovník, nebo si nainstalujte vlastní instanci systému TermIt (podle návodu v <a href="/install">záložce Instalace</a>).
 
 # Základní tutoriál
 Základní úkoly, tedy ty, které budou uživtaelé systému TermIt provádět po většinu času, jsou shrnuty v základním tutoriálu. Tutoriál je rozdělen do sekcí podle jednotlivých úkolů.
 
 ## Vyhledávání pojmů a procházení slovníků
 
-Elementárním úkolem je vyhldání pojmů. Pojmem je v TermItu myšlen koncept ve specifikovaném konceptu, například "stavba" může být reprezentována dvěma pojmy, kde jeden reprezentuje stavbu jako objekt a druhý jako proces. Pojmy jsou zpravidla definovány v kontextu slovníku, například slovníku legislativního dokumentu (pojem "budova" podle katastrálního zákona) nebo konkrétní datové sady (například koncepty BIM).
+Elementárním úkolem je vyhldání pojmů. Pojmem je v TermItu myšlen koncept ve specifikovaném kontextu, například "stavba" může být reprezentována dvěma pojmy, kde jeden reprezentuje stavbu jako objekt a druhý jako proces. Pojmy jsou zpravidla definovány v kontextu slovníku, například slovníku legislativního dokumentu (pojem "budova" podle katastrálního zákona) nebo konkrétní datové sady (například koncepty BIM).
 
 Pokusme se vyhledat pojem "Lokalita" ze slovníku "Slovník Pražských stavebních předpisů 2016 - slovník".
 
@@ -201,4 +201,10 @@ V písmenu e) druhého paragrafu se nachází pojem "geometrické určení", kte
 
 {% include figure image_path="/assets/images/tutorial-cs/vybraný_text.png" alt="Výběr textu a volba mezi označením výskytu nebo definice" caption="Výběr textu a volba mezi označením výskytu nebo definice." %}
 
-[comment]: <> ### Označení definice
+### Označení definice
+
+Druhou věcí, kterou je možné označit přímo v textu, je definice pojmu. Označíme definici pojmu "Parcela", který již text definice vyplněný má. Na řádku b) označte celý text od slovna pozemek na začátku až po čárku na konci. V pop-up okně zvolíme, že označujeme definici a z roletové nabídky vybereme pojem "Parcela". Vzhledem k tomu, že pojem již definici má, objeví se okno s porovnáním stávajícího i nového textu definice.
+
+{% include figure image_path="/assets/images/tutorial-cs/změna_definice.png" alt="Porovnání stávajícího a nového textu definice" caption="Porovnání stávajícího a nového textu definice." %}
+
+Text definice je možné upravovat, stejně jako její zdroj. Stisknutím tlačítka "Uložit" je změněn text definice pojmu a zároveň je v textu označena definice pojmu.
