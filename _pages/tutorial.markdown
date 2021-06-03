@@ -5,11 +5,14 @@
 layout: single
 # title: Tutorial
 permalink: /tutorial
+lang: en
+lang-ref: tutorial
 header:
   image: /assets/images/tutorial-header.jpg
   caption: "Photo credit: [**Immo Wegmann**](https://unsplash.com/@macroman?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [**Unsplash**](http://unsplash.com/)"
 toc: true
 ---
+
 System TermIt is designed to manage terms and vocabularies, assign them to documents and other resources and interconnect them. Basic tutorial focuses on those activities, describing step by step how to:
 * search for terms and browse vocabularies,
 * look for occurrences and definitions in documents,

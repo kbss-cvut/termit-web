@@ -1,15 +1,13 @@
 ---
-layout: single
-# title: About
-permalink: /about
-lang: en
+layout: single-cs
+title: O TermItu
+permalink: /cs/about
+lang: cs
 lang-ref: about
 header:
   image: /assets/images/about-header.jpg
   caption: "Photo credit: [**Thom Holmes**](https://unsplash.com/@thomholmes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [**Unsplash**](http://unsplash.com/)"
 ---
-
-# About TermIt
 
 TermIt is a system for ....
 
@@ -28,6 +26,10 @@ Do You want to contribute? Feel free to fork the respective repository:
 - [backend](https://github.com/kbss-cvut/termit)
 - [docker instrumentation](https://github.com/kbss-cvut/termit-docker)
 and open a pull request with Your contribution.
+
+
+
+
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 

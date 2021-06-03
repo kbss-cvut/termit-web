@@ -2,10 +2,10 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: single
-title: Technical Details
-permalink: /technical-details
-lang: en
+layout: single-cs
+title: Technické detaily
+permalink: /cs/technical-details
+lang: cs
 lang-ref: technical-details
 header:
   image: /assets/images/data-model-header.jpg

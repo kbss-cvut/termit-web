@@ -15,3 +15,6 @@ main:
   - title: "Technical details"
     url: /technical-details
     description: "Technical details about TermIt"
+  - title:  🇨🇿
+    url: /cs
+    description: "Czech"

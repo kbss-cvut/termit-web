@@ -1,35 +1,37 @@
 ---
-layout: splash
+layout: splash-cs
 author_profile: false
+lang: cs
+lang-ref: index
 excerpt: "TermIt is a tool to manage vocabularies, terms and resources in which are the terms defined and used. It is focused on management of terms based on their semantics -- i.e. two 'same' terms in different vocabularies may have different meaning."
 header:
   overlay_image: /assets/images/front-image.jpg
   overlay_filter: rgba(38, 38, 38, 0.5)
   caption: "Photo credit: [**Ryunosuke Kikuno**](https://unsplash.com/@kknrynsk_jp?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [**Unsplash**](http://unsplash.com/)"
   actions:
-   - label: "Find out more"
+   - label: "Zjisti víc"
      url: /about
 
 feature_row:
   - image_path: /assets/images/installation.jpg
-    title: "Installation"
+    title: "Instalace"
     excerpt: "Tool supports dockerization, so installation is very easy."
     btn_label: "Download and install"
     url: /install
   - image_path: /assets/images/tutorial.jpg
-    title: "Tutorial"
+    title: "Tutoriál"
     excerpt: "TermIt solves various problems, from creating vocabularies to annotating resources."
     url: "/tutorial"
     btn_label: "Teach me how"
   - image_path: /assets/images/deployments.jpg
-    title: "Deployments"
+    title: "Nasazení"
     excerpt: "TermIt is already running some interesting projects."
     btn_label: "Show me where"
     url: /deployments
 
 feature_row2:
   - image_path: /assets/images/data-model.jpg
-    title: "Technical details"
+    title: "Technické detaily"
     excerpt: "TermIt architecture, interesting libraries used within, or the data model used within TermIt are some of the technical details of the system."
     btn_label: "Introduce me to the details"
     url: /technical-details

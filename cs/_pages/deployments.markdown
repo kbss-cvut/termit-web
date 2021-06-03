@@ -2,10 +2,10 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: single
-title: Deployments
-permalink: /deployments
-lang: en
+layout: single-cs
+title: Nasazení
+permalink: /cs/deployments
+lang: cs
 lang-ref: deployments
 classes: wide
 header:
@@ -28,7 +28,7 @@ feature_row2:
     btn_label: "Click here to see it"
     url: /link-na-kodi
 ---
-[comment]: <> # Running deployments
+# Running deployments
 This page displays current deployments.
 
 TermIt is partly modular system and we can deploy it specifically for your needs.
