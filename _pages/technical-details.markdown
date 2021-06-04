@@ -7,6 +7,7 @@ title: Technical Details
 permalink: /technical-details
 lang: en
 lang-ref: technical-details
+author_profile: true
 header:
   image: /assets/images/data-model-header.jpg
   caption: "Photo credit: [**Toby56**](https://unsplash.com/@toby56?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [**Unsplash**](http://unsplash.com/)"

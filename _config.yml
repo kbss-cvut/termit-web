@@ -96,14 +96,14 @@ analytics:
 # Site Author
 author:
   name             : "Knowledge-based and Software Systems Group"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/about/KBSS.jpg"
   bio              : #""
   location         : "FEE CTU in Prague"
-  email            :
+  email            : "mailto:petr.kremen@fel.cvut.cz"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      # url: "mailto:michal.med@fel.cvut.cz"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -115,7 +115,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url:  "https://github.com/kbss-cvut/termit"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -131,7 +131,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url:  "https://github.com/kbss-cvut/termit"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
