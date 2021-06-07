@@ -13,8 +13,8 @@ header:
 feature_row:
   - image_path: /assets/images/about/deployment1.jpg
     alt: "Deployment on IPR"
-    title: "TermIt deployment on IPR"
-    excerpt: "TermIt runs on IPR since 2020. It was originally used to describe Metropolitan plan and help to relate it to the legislation. The main problem to solve is that experts from different domains uses different terminology, and all of them must contribute. Nowadays, TermIt serves as an intermediary for many other projects besides Metropolitan plan."
+    title: "TermIt deployment on Institute for Planning and Development of Prague (IPR)"
+    excerpt: "TermIt runs on IPR since 2021. TermIt was originally created in the project OPPPR and IPR tested its usability -- to describe Metropolitan plan and help to relate it to the legislation. The main problem to solve is that experts from different domains uses different terminology, and all of them must contribute. Nowadays, TermIt serves for systemization of terminology in other projects, e.g. Uniform Interchangeable Format of the Digital Technical Map (JVF DTM) and Building Intelligence Model (BIM)."
     btn_label: "See TermIt on IPR"
     url: https://termit.fel.cvut.cz/ipr/#/public
 
@@ -43,12 +43,12 @@ It was created originally for Institute of planning and development (IPR) of Pra
 
 ## Deployments
 
-TermIt is an open-source project. The core version is available from [TermItGitHub](https://github.com/kbss-cvut/termit). For specific customers were created few specific versions. TermIt is already running in following deployments:
+TermIt is an open-source project. The core version is developed on [GitHub](https://github.com/kbss-cvut/termit). For specific customers were created few specific versions. TermIt is already running in following deployments:
 
 {% include feature_row type="right"%}
 {% include feature_row id="feature_row2" type="left"%}
 
-[Install](/install) and try  core version. Feel free to [contact us](mailto:petr.kremen@fel.cvut.cz), if there is something missing. TermIt is partly modular system and we can deploy it specifically for Your needs.
+[Install](/install) and try  core version. Feel free to [contact us](mailto:petr.kremen@fel.cvut.cz), if there is something missing, or report issue in [this repository]([frontend](https://github.com/kbss-cvut/termit-ui). TermIt is partly modular system and we can deploy it specifically for Your needs.
 
 ## Live demo
 
