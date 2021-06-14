@@ -14,10 +14,9 @@ header:
 toc: true
 ---
 
-This page contains some technical background of TermIt. It describes the architecture of the system, libraries developed by us that it uses, and the data model at its core.
-
-
 # Technologies and Architecture
+
+This page contains some technical background of TermIt. It describes the architecture of the system, libraries developed by us that it uses, and the data model at its core.
 
 ## Overview
 

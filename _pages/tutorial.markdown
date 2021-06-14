@@ -14,6 +14,8 @@ header:
 toc: true
 ---
 
+# Tutorial
+
 System TermIt is designed to manage terms and vocabularies, assign them to documents and other resources and interconnect them. Basic tutorial focuses on those activities, describing step by step how to:
 * search for terms and browse vocabularies,
 * look for occurrences and definitions in documents,
