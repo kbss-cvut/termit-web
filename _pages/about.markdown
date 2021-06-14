@@ -13,8 +13,8 @@ header:
 feature_row:
   - image_path: /assets/images/about/deployment1.jpg
     alt: "Deployment on IPR"
-    title: "TermIt deployment on Institute for Planning and Development of Prague (IPR)"
-    excerpt: "TermIt runs on IPR since 2021. TermIt was originally created in the project OPPPR and IPR tested its usability -- to describe Metropolitan plan and help to relate it to the legislation. The main problem to solve is that experts from different domains uses different terminology, and all of them must contribute. Nowadays, TermIt serves for systemization of terminology in other projects, e.g. Uniform Interchangeable Format of the Digital Technical Map (JVF DTM) and Building Intelligence Model (BIM)."
+    title: "TermIt deployment on IPR"
+    excerpt: "TermIt runs on Institute of Planning and Development of Prague (IPR) since 2021. TermIt was originally created in the project OPPPR and IPR tested its usability -- to describe Metropolitan plan and help to relate it to the legislation. Nowadays, TermIt serves for systemization of terminology in other projects, e.g. Uniform Interchangeable Format of the Digital Technical Map (JVF DTM) and Building Intelligence Model (BIM)."
     btn_label: "See TermIt on IPR"
     url: https://termit.fel.cvut.cz/ipr/#/public
 
@@ -22,9 +22,8 @@ feature_row2:
   - image_path: /assets/images/about/deployment2.jpg
     alt: "Deployment in KODI"
     title: "TermIt deployment in KODI"
-    excerpt: "Ministry oif interior of the Czech Republic incorporated TermIt as a part of the production line for creation of open data, including proper documentation. TermIt serves as a tool for creation of legislation glossaries. They are used to annotate data sets and create interlinks between legislation."
-    btn_label: "Click here to see it"
-    url: http://slovník.gov.cz/modelujeme
+    excerpt: "Ministry of interior of the Czech Republic incorporated TermIt as a part of the production line for creation of open data, including proper documentation. TermIt serves as a tool for creation of legislation glossaries. They are used to annotate data sets and create interlinks between legislation. Content of this deployment is not yet publicly accessible."
+
 
 feature_row3:
   - image_path: /assets/images/about/demo.png
