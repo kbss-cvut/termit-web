@@ -7,7 +7,8 @@ layout: single
 permalink: /install
 lang: en
 lang-ref: install
-toc: true
+classes: wide
+author_profile: true
 header:
   image: /assets/images/installation-header.jpg
   caption: "Photo credit: [**Clint Patterson**](https://unsplash.com/@cbpsc1?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [**Unsplash**](http://unsplash.com/)"

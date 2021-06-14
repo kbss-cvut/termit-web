@@ -7,6 +7,7 @@ layout: single
 permalink: /tutorial
 lang: en
 lang-ref: tutorial
+author_profile: true
 header:
   image: /assets/images/tutorial-header.jpg
   caption: "Photo credit: [**Immo Wegmann**](https://unsplash.com/@macroman?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [**Unsplash**](http://unsplash.com/)"

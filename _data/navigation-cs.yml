@@ -9,9 +9,6 @@ main:
   - title: "Tutoriál"
     url: /cs/tutorial
     description: "Návod na použití systému TermIt"
-  - title: "Nasazení"
-    url: /cs/deployments
-    description: "Nasazení systému TermIt v praxi"
   - title: "Technické detaily"
     url: /cs/technical-details
     description: "Technické detaily o sytsému TermIt"

@@ -9,9 +9,6 @@ main:
   - title: "Tutorial"
     url: /tutorial
     description: "Tutorials on usage of TermIt"
-  - title: "Deployments"
-    url: /deployments
-    description: "Running deployments"
   - title: "Technical details"
     url: /technical-details
     description: "Technical details about TermIt"
