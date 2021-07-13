@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: single
-# title: Tutorial
+title: Tutorial
 permalink: /tutorial
 lang: en
 lang-ref: tutorial
