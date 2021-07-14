@@ -97,7 +97,7 @@ Term is any concept used in the vocabulary.
 Source represents the origin of data that are being modelled, e.g. database, data set, document, file etc...
 
 #### Attribute
-Attribute is a special type of term, representing a property dependent on an object described in a source (e.g. a column in a database table, property described in a document etc).
+Attribute is a special type of term, representing a property dependent on an object described in a source (e.g. a column in a database table, property described in a document etc.).
 
 ### TermIt ontology
 
