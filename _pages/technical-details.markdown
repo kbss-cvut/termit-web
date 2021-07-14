@@ -75,7 +75,7 @@ Vocabularies modelled in TermIt are using two specific data models -- Data descr
 
 ### Data description ontology
 
-Basic ontology used for description of any data is called Data description ontology and is described on [this page](http://onto.fel.cvut.cz/ontologies/slovnik/agendovy/popis-dat/current/index-en.html). It is based on the Unified Foundational Ontology (UFO).
+Basic ontology used for description of any data is called Data description ontology and is described on [this page](http://onto.fel.cvut.cz/ontologies/slovnik/agendovy/popis-dat/current/index-en.html). It is based on the Unified Foundational Ontology (UFO). The ontology is made to describe any data source, such as databases, data in various formats, files etc.
 
 The current version of Data description ontology can be found [here](https://onto.fel.cvut.cz/ontologies/page/slovnik/agendovy/popis-dat/model/verze/1.0.1) in turtle or RDF/XML.
 
@@ -101,7 +101,7 @@ Source represents the origin of data that are being modelled, e.g. database, dat
 
 ### TermIt ontology
 
-TermIt ontology is created in the process of creation of TermIt software. It inherits from common Data description ontology and extends it for the concepts used specifically in TermIt.
+TermIt ontology has been created while developing TermIt software. It inherits common Data description ontology and extends it for the concepts used specifically in TermIt.
 
 Major problems solved by the TermIt ontology regard textual annotations, occurrences of terms in the sources and user management.
 
