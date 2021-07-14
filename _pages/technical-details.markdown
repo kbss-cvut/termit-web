@@ -93,11 +93,11 @@ Model brings ontological relations to the terms defined in the glossary, using m
 #### Term
 Term is any concept used in the vocabulary.
 
-#### Attribute
-Attribute is a special type of term, representing a dependent property. It may represent data attributes, reference attributes or statistical attributes.
-
 #### Source
 Source represents the origin of data that are being modelled, e.g. database, data set, document, file etc...
+
+#### Attribute
+Attribute is a special type of term, representing a property dependent on an object described in a source (e.g. a column in a database table, property described in a document etc).
 
 ### TermIt ontology
 
