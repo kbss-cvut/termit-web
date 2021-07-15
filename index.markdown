@@ -23,13 +23,6 @@ feature_row:
     excerpt: "TermIt solves various problems, from creating vocabularies to annotating resources."
     url: "/tutorial"
     btn_label: "Teach me how"
-  - image_path: /assets/images/deployments.jpg
-    title: "Deployments"
-    excerpt: "TermIt is already running some interesting projects."
-    btn_label: "Show me where"
-    url: /deployments
-
-feature_row2:
   - image_path: /assets/images/data-model.jpg
     title: "Technical details"
     excerpt: "TermIt architecture, interesting libraries used within, or the data model used within TermIt are some of the technical details of the system."
@@ -49,5 +42,3 @@ feature_row2:
 {% endif %}
 
 {% include feature_row %}
-
-{% include feature_row id="feature_row2" type="left" %}

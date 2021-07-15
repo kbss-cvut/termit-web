@@ -15,27 +15,18 @@ header:
 feature_row:
   - image_path: /assets/images/installation.jpg
     title: "Instalace"
-    excerpt: "Tool supports dockerization, so installation is very easy."
-    btn_label: "Download and install"
+    excerpt: "Nástroj podporuje dokerizaci, instalace je tedy velice jednoduchá."
+    btn_label: "Stáhni a nainstaluj"
     url: /install
   - image_path: /assets/images/tutorial.jpg
     title: "Tutoriál"
-    excerpt: "TermIt solves various problems, from creating vocabularies to annotating resources."
+    excerpt: "TermIt řeší různé problémy, od tvorby slovníků po anotaci zdrojů."
     url: "/tutorial"
-    btn_label: "Teach me how"
-  - image_path: /assets/images/deployments.jpg
-    title: "Nasazení"
-    excerpt: "TermIt is already running some interesting projects."
-    btn_label: "Show me where"
-    url: /deployments
-
-feature_row2:
+    btn_label: "Nauč mě jak"
   - image_path: /assets/images/data-model.jpg
     title: "Technické detaily"
-    excerpt: "TermIt architecture, interesting libraries used within, or the data model used within TermIt are some of the technical details of the system."
-    btn_label: "Introduce me to the details"
+    excerpt: "Architekturu systému TermIt, zajímavé knihovny, nebo použité datové modely najdete mezi technickými detaily."
+    btn_label: "Ukaž mi detaily"
     url: /technical-details
 ---
 {% include feature_row %}
-
-{% include feature_row id="feature_row2" type="left" %}

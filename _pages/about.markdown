@@ -38,7 +38,7 @@ feature_row3:
 
 TermIt is a system for management of terms and vocabularies and their interconnection to legislation (or other documents) and other vocabularies.
 
-It was created originally for Institute of planning and development (IPR) of Prague. People from IPR needed to describe terms used by different group of specialists. Without being the ontology expert, it was impossible fot them to make it. The tool helps domain experts to create ontological glossaries.
+Motivation to create such a system originates in a need to describe terms used by different groups of experts to make them understand each other without a need to learn new terminology. Without being the ontology expert, it was impossible to achieve the aforementioned goal. The tool helps domain experts to create ontological glossaries and interconnect their terms to the other vocabularies.
 
 ## Deployments
 
@@ -47,7 +47,7 @@ TermIt is an open-source project. The core version is developed on [GitHub](http
 {% include feature_row type="right"%}
 {% include feature_row id="feature_row2" type="left"%}
 
-[Install](/install) and try  core version. Feel free to [contact us](mailto:petr.kremen@fel.cvut.cz), if there is something missing, or report issue in [this repository]([frontend](https://github.com/kbss-cvut/termit-ui). TermIt is partly modular system and we can deploy it specifically for Your needs.
+[Install](/install) and try  core version. Feel free to [contact us](mailto:petr.kremen@fel.cvut.cz), if there is something missing, or report issue in [this repository](https://github.com/kbss-cvut/termit-ui). TermIt is partly modular system and we can deploy it specifically for Your needs.
 
 ## Live demo
 
