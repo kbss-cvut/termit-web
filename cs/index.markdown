@@ -15,7 +15,7 @@ header:
 feature_row:
   - image_path: /assets/images/installation.jpg
     title: "Instalace"
-    excerpt: "Nástroj podporuje dokerizaci, instalace je tedy velice jednoduchá."
+    excerpt: "Nástroj podporuje dockerizaci, instalace je tedy velice jednoduchá."
     btn_label: "Stáhni a nainstaluj"
     url: /install
   - image_path: /assets/images/tutorial.jpg

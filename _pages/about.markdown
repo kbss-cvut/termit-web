@@ -38,7 +38,7 @@ feature_row3:
 
 TermIt is a system for management of terms and vocabularies and their interconnection to legislation (or other documents) and other vocabularies.
 
-Motivation to create such a system originates in a need to describe terms used by different groups of experts to make them understand each other without a need to learn new terminology. Without being the ontology expert, it was impossible to achieve the aforementioned goal. The tool helps domain experts to create ontological glossaries and interconnect their terms to the other vocabularies.
+Motivation to create such a system originates in a need to describe terms used by different groups of experts to make them understand each other without a need to learn new terminology. Without being an ontology expert, it was impossible to achieve the aforementioned goal. The tool helps domain experts to create ontological glossaries and interconnect their terms to other vocabularies.
 
 ## Deployments
 

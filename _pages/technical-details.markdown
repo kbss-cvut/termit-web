@@ -54,13 +54,10 @@ and links with more details.
 [JOPA](https://github.com/kbss-cvut/jopa) (Java OWL Persistence API) is a persistence library for semantic data. It allows working with POJO-based domain model which is stored as RDF data in a triple store. Heavily inspired by JPA and its implementation, JOPA contains all the necessary bells and whistles (transactions, query result mapping, caching) to make development
 of a Semantic Web-based information system as smooth as possible.
 
-There is also a [library](https://github.com/ledsoft/jopa-spring-transaction) for integrating JOPA with the declarative
-transaction management of Spring (think `@Transactional`) that is used in TermIt.
+There is also a [library](https://github.com/ledsoft/jopa-spring-transaction) for integrating JOPA with the declarative transaction management of Spring (think `@Transactional`) that is used in TermIt.
 
 #### JB4JSON-LD
-[JB4JSON-LD](https://github.com/kbss-cvut/jb4jsonld) (Java Binding for JSON-LD) is a library for seamless marshalling and unmarshalling of POJOs into and from JSON-LD.
-It integrates with Jackson, so the set-up for an application is a matter of just a couple of lines of code.
-
+[JB4JSON-LD](https://github.com/kbss-cvut/jb4jsonld) (Java Binding for JSON-LD) is a library for seamless marshalling and unmarshalling of POJOs into and from JSON-LD. It integrates with Jackson, so the set-up for an application is a matter of just a couple of lines of code.
 
 ## Data Model
 

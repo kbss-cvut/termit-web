@@ -123,6 +123,8 @@ V horní části dialogu můžete přidat záložku s jinou jazykovou verzí. Pr
 
 #### Kontrola a editace pojmů
 
+[comment]: <> možná místo chyby používat Výsledky kontroly úplnosti pojmů
+
 Při návratu do detailu slovníku nyní vidíme v záložce "Pojmy" seznam našich pojmů. Před každým z nich je barevná tečka, která označuje úplnost detailů pojmu.
 
 {% include figure image_path="/assets/images/tutorial-cs/validace.png" alt="Seznam nových pojmů" caption="Seznam nových pojmů." %}

@@ -16,8 +16,8 @@ toc: true
 
 # Tutorial
 
-System TermIt is designed for terms and vocabularies management. It allows users to assign terms from the specific vocabularies to the documents or any other sources and interconnect them. The basic tutorial describes step by step following activities:
-* searching for terms and browsing vocabularies,
+TermIt is designed for terms and vocabularies management. It allows users to assign terms from the specific vocabularies to the documents or any other resources and interconnect them. The basic tutorial describes following activities:
+* searching terms and browsing vocabularies,
 * marking occurrences of terms and their definitions in documents,
 * creating and editing vocabularies and terms,
 * assigning document to the vocabulary and its annotation.
@@ -42,7 +42,7 @@ Basic tasks -- those comprising most of the work usually done in TermIt -- are b
 
 Searching terms is an elementary task. Term in TermIt is a concept in specified context, e.g. 'construction' may be represented by two terms, where one stands for a constructed object (building) and second one represents a process of a constructing a building. Terms are usually defined in a context of a vocabulary, e.g. vocabulary of a specific legislative document (construction in a meaning of a specific law) or a specific data set (set of ongoing constructions of building within a municipality).
 
-Lets find a term "Building" from the vocabulary 'Vocabulary of Prague Building Regulations 2016'.
+Let's find a term "Building" from the vocabulary 'Vocabulary of Prague Building Regulations 2016'.
 
 #### Search bar
 The easiest way of searching terms is typing their name (label) into the search bar in the upper part of the page.
@@ -83,7 +83,7 @@ Green colored terms are occurrences of terms, blue colored are definitions of te
 
 {% include figure image_path="/assets/images/tutorial/occurrence.png" alt="Occurrence detail" caption="Occurrence detail." %}
 
-[comment]: <> TODO: přidat označování výskytů a definic
+[comment]: <> přidat označování výskytů a definic
 
 ### Creating new vocabularies and terms
 
@@ -159,7 +159,7 @@ Check the validation tab again. Some of the results shall disappear. The correct
 
 By editing, you may fix other terms completeness as well.
 
-[comment]: <> Todo #### Závislost pojmů
+[comment]: <> přidej sekci #### Závislost pojmů
 
 ### Annotate documents
 
