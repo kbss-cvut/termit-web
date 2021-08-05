@@ -13,58 +13,80 @@ header:
 toc: true
 ---
 
-This page contains some technical background of TermIt. It describes the architecture of the system, libraries developed by us that it uses, and the data model at its core.
+# Technické detaily
+
+Tato stránka obsahuje další technické pozadí systému TermIt. Popisuje architekturu systému, knihovny, které jsme vyvinuli a které TermIt používá a datový model použitý v základní verzi TermItu.
+
+## Technologie a architektura
+
+Technicky je TermIt webová aplikace. Systém je rozdělen do dvou sub-projektů: jeden reprezentuje serverovou část, druhý klientskou část. Architektura systému je ukázána v následujícím diagramu.
+
+{% include figure image_path="/assets/images/technical-details/termit-architecture.png" alt="TermIt architecture diagram" caption="Diagram architektury systému TermIt" %}
+
+### Serverová část systému TermIt
+
+Serverová část systému je napsána v jazyce Java (8 nebo novější). Jedná se o Java aplikaci založenou na [Spring Boot](https://spring.io/projects/spring-boot) s REST API podporujícícm JSON a [JSON-LD](https://json-ld.org/). TermIt běží nad triple storem, kam ukládá všechna data. Systém byl testován nad [RDF4J](https://rdf4j.org/) a [GraphDB](https://graphdb.ontotext.com/), která poskytuje stabilnější výkon.
+
+Detailní popis konfigurace a vývoje serverové části TermItu je k nahlédnutí v [tomto GitHub repositáři](https://github.com/kbss-cvut/termit).
+
+### Klientská část systému TermIt
+
+Klientská část systému je napsaná v TypeScriptu, používající [React framework](https://reactjs.org/). Ten je použit pro svou jednoduchost a rozsáhlý ekosystém knihoven.
+
+Zdrojový kód klientské části je v [tomto GitHub repositáři](https://github.com/kbss-cvut/termit-ui), který obsahuje i základní vývojářskou dokumentaci.
+
+### Integrace s nástrojem Annotace
+
+Jednou z nejdůležitějších funkcí systému TermIt je jeho schopnost analyzovat obsah dokumentů pro vyhledávání výskytu existujících pojmů a navrhování nových pojmů podle jejich významu v textu. Textovou analýzu zajišťuje samostatně vyvinutá open-source knihovna **Annotace**, kterou můžete najít v [jejím GitHub repozitáři](https://github.com/kbss-cvut/annotace).
 
 
-# Technologies and Architecture
+### Zajímavé knihovny
 
-## Overview
-
-Technically, TermIt is a web application. The system is split into two sub-projects, one representing the backend and the other representing the frontend. The overall
-architecture of TermIt can be seen in the following component diagram.
-{% include figure image_path="/assets/images/technical-details/termit-architecture.png" alt="TermIt architecture diagram" caption="TermIt architecture diagram" %}
-
-### TermIt Backend
-
-The backend is written in Java (8 or later). It is a [Spring Boot](https://spring.io/projects/spring-boot) -based Java web application with a REST API
-supporting JSON and [JSON-LD](https://json-ld.org/). TermIt runs on top of a triple store where it stores all its data. It has been tested with
-[RDF4J](https://rdf4j.org/) and [GraphDB](https://graphdb.ontotext.com/) with GraphDB delivering more favorable performance.
-
-Details on how to configure or develop the TermIt backend can be found in its [GitHub repository](https://github.com/kbss-cvut/termit).
-
-
-### TermIt Frontend
-
-The frontend is a client-side web application written in TypeScript using the [React framework](https://reactjs.org/). React is used for its simplicity of use
-and the vast ecosystem of libraries one can utilize.
-
-The frontend source code can be found in its [GitHub repository](https://github.com/kbss-cvut/termit-ui), which also contains some basic developer documentation.
-
-### Integration with Annotace
-
-One of the more interesting features of TermIt is its ability to analyze content of document in order to find occurrences of terms and suggest new terms based on their
-significance in the text. The text analysis functionality has been developed separately to enable its reuse.
-This library is called **Annotace**, it is open source and can be found on [GitHub](https://github.com/kbss-cvut/annotace) as well.
-
-
-## Notable Libraries
-
-TermIt uses several custom libraries and components that may be of interest for other Semantic Web developers. Here is a short list with some basic details
-and links with more details.
+TermIt používá několik knihoven vyvinutých pro účely sémantického webu a sémantických dat, a které by mohly zajímat i další vývojáře v této obasti. Jsou shrnuty v následujícím seznamu včetně základního popisu a odkazu.
 
 #### JOPA
 
-[JOPA](https://github.com/kbss-cvut/jopa) (Java OWL Persistence API) is a persistence library for semantic data.
-It allows working with POJO-based domain model which is stored as RDF data in a triple store.
-Heavily inspired by JPA and its implementation, JOPA contains all the necessary bells and whistles (transactions, query result mapping, caching) to make development
-of a Semantic Web-based information system as smooth as possible.
+[JOPA](https://github.com/kbss-cvut/jopa) (Java OWL Persistence API) je perzistentní knihovna pro sémantická data. Umožuje práci s doménovým modelem založeným na POJO, který je uložen v podobě RDF dat v triple storu. Silná inspirace v JPA je vidět i v přítomnosti transakcí, mapování výsledků dotazů a cachování za účelem co nejhladšího vývoje informačního systému založeného na principech sémantického webu.
 
-There is also a [library](https://github.com/ledsoft/jopa-spring-transaction) for integrating JOPA with the declarative
-transaction management of Spring (think `@Transactional`) that is used in TermIt.
+Pro integraci JOPA s deklarativní správou transakcí Springu (`@Transactional`), která je použita v systému TermIt je zde i [tato knihovna](https://github.com/ledsoft/jopa-spring-transaction).
 
 #### JB4JSON-LD
-[JB4JSON-LD](https://github.com/kbss-cvut/jb4jsonld) (Java Binding for JSON-LD) is a library for seamless marshalling and unmarshalling of POJOs into and from JSON-LD.
-It integrates with Jackson, so the set-up for an application is a matter of just a couple of lines of code.
+[JB4JSON-LD](https://github.com/kbss-cvut/jb4jsonld) (Java Binding for JSON-LD) je knihovna pro snadné mapování POJO na JSON-LD a naopak. Integruje se s Jacksonem, takže použití v aplikaci je otázkou pouze několika řádek kódu.
 
+## Datový model
 
-# Data Model
+Slovníky modelované v systému TermIt používají pro data dva datové modely -- ontologii Popis dat a TermIt ontologii. Oba modely byly vytvořeny skupinou Knowledge-based and Software Systems Group (KBSS).
+
+### Ontologie popis dat
+
+Základní ontologie použitá k popisu (libolovných) dat se jmenuje Popis dat a její dokumentaci [najdete na této stránce](http://onto.fel.cvut.cz/ontologies/slovnik/agendovy/popis-dat/current/index-cs.html). Ontologie je založena na Unified Foundational Ontology (UFO) a je určena k popisu libovolných datových zdrojů, např. databází, dat v různých souborových formátech, souborů atd.
+
+Současnou verzi ontologie Popis dat můžete najít [zde](https://onto.fel.cvut.cz/ontologies/page/slovnik/agendovy/popis-dat/model/verze/1.0.1) ve formátu turtle nebo v RDF/XML.
+
+Následující sekce popisují základní třídy definované v datovém modelu.
+
+#### Slovník
+Slovník reprezentuje ontologii, která se skládá z glosáře a modelu.
+
+#### Glosář
+Glosář je seznam všech pojmů ve slovníku a používá koncepty ze slovníku SKOS.
+
+#### Model
+Model propojuje pojmy definované v glosáři za pomoci ontologických vztahů, především pocházejících z ontologie UFO.
+
+#### Term
+Term je libovolný pojem ve slovníku.
+
+#### Zdroj
+Zdroj představuje původ dat, která jsou modelována, například databáze, soubor atd.
+
+#### Atribut
+Atribut je speciální případem termu, který představuje vlastnost závislou na předmětu popsaném ve zdroji (např. sloupec v databázové tabulce, vlastnost popsaná v dokumentu atd.).
+
+### Ontologie TermIt
+
+Ontologie TermIt je vytvářena během vývoje systému TermIt. Dědí od obecné ontologie Popis dat a rozšiřuje jí o koncepty používané specificky v systému TermIt.
+
+Ontologie TermIt obsahuje například pojmy popisující anotaci textů, výskyty pojmů ve zdrojích a správu uživatelů.
+
+Aktuální verze ontologie TermIt je součástí základní verze termitu a je dostupná z [repozitáře TermItu na GitHubu](https://github.com/kbss-cvut/termit/tree/master/ontology).

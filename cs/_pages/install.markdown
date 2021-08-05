@@ -13,10 +13,10 @@ header:
   caption: "Photo credit: [**Clint Patterson**](https://unsplash.com/@cbpsc1?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [**Unsplash**](http://unsplash.com/)"
 ---
 
-# Installation
+# Instalace
 
-TermIt can be easily setup through Docker Compose, setting up all necessary services and dependencies. Details are described [here](https://github.com/kbss-cvut/termit-docker).
+TermIt může být snadno nainstalován za použití Docker Compose, který nastaví všechny nezbytné služby a závislosti. Detaily jsou popsány [na samostatné stránce](https://github.com/kbss-cvut/termit-docker).
 
-An alternative (more complicated) is to install and wire up the services independently. Follow individual installation instructions for setting up each service:
+Alternativním (a složitějším) způsobem instalace je samostatný build a instalace a nezávislé nastavení služeb. Pro samostatnou instalaci a nastavení služeb se řiďte instrukcemi v těchto odkazech:
 - [TermIt](https://github.com/kbss-cvut/termit-ui)
 - [TermIt Server](https://github.com/kbss-cvut/termit)
