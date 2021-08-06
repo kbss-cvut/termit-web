@@ -24,7 +24,7 @@ Systém TermIt je navržen pro správu pojmů a slovníků, umožňuje ke slovn�
 Chystáme pokročilý tutoriál, který podrobně ukáže pokročilé možnosti systému TermIt. Také je v přípravě dokumentace popisující všechny jednotlivé prvky systému (nezávisle na konkrétní činnosti).
 
 ## Sandbox
-Na stránce <a href="https://termit.fel.cvut.cz/dev/ipr/">https://termit.fel.cvut.cz/dev/ipr/</a> se nachází vývojová verze systému TermIt nasazená primárně pro Institut plánování a rozvoje hlavního města Prahy. Obsahuje několik slovníků naplněných pojmy, některé z nich mají přiřazené dokumenty. Nasazení je možné procházet v několika různých režimech v závislosti na uživatelských právech:
+Na stránce <a href="https://kbss.felk.cvut.cz/termit-dev/">https://kbss.felk.cvut.cz/termit-dev/</a> se nachází vývojová verze systému TermIt. Obsahuje několik slovníků naplněných pojmy, některé z nich mají přiřazené dokumenty. Nasazení je možné procházet v několika různých režimech v závislosti na uživatelských právech:
 * bez uživatelského účtu -- je možné procházet všechny slovníky a všechny pojmy, není možné editovat, anotovat ani komentovat, zobrazovat dokumenty ani jiné zdroje. Funkcionalita je velice omezená, tento režim by měl sloužit veřejnosti k prohlížení slovníků a pojmů,
 * s uživatelskými právy typu "Čtenář" -- uživatel jse schopen procházet slovníky, pojmy i datové zdroje. Dále vidí rozšířené vlastnosti pojmů i slovníků, může zobrazit definici pojmu v dokumentu a jednotlivé pojmy komentovat. Nemůže pojmy ani slovníky editovat a nemůže anotovat dokumenty. Tento režim slouží pro odborné uživatele, kteří se chtějí k pojmům a slovníkům vyjadřovat, ale nechtějí je přímo editovat,
 * s uživatelskými právy typu "Editor" -- uživatel má plný přístup k editace všech slovníků i pojmů a může anotovat dokumenty. Tento režim je určen pro doménové experty, kteří ovládají doménu slovníku a jsou jeho hlavními tvůrci,
@@ -68,7 +68,7 @@ Detail pojmu obsahuje základní informace o pojmu, hierarchickou strukturu osta
 
 ### Označování výskytu pojmů a jejich definic v dokumentech
 
-Slovníky jsou zpravidla propojeny s dokumenty, které obsahují jejich definice a výskyty. V levém panelu otevřete stránku "Slovníky" a vyhledejte slovník "Slovník Metropolitního plánu". Po jeho otevření ve spodní části detailu otevřete záložku "Dokument".  
+Slovníky jsou zpravidla propojeny s dokumenty, které obsahují jejich definice a výskyty. V levém panelu otevřete stránku "Slovníky" a vyhledejte slovník "Slovník Metropolitního plánu ve verzi 3.5 návrh k projednání". Po jeho otevření ve spodní části detailu otevřete záložku "Dokument".  
 
 {% include figure image_path="/assets/images/tutorial-cs/detail_slovníku.png" alt="Detail dokumentu přiřazeného ke slovníku" caption="Detail dokumentu přiřazeného ke slovníku." %}
 
