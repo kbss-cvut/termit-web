@@ -2,6 +2,7 @@
 layout: single
 permalink: /documentation
 lang: en
+title: Documentation
 lang-ref: documentation
 #classes: wide
 author_profile: true
@@ -12,7 +13,7 @@ toc: true
 toc_sticky: true
 
 ---
-# Documentation
+<!-- # Documentation -->
 
 In this section, the documentation of individual features of the system TermIt will gradually appear, sorted alphabetically.
 

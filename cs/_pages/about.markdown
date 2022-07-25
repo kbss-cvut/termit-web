@@ -1,6 +1,6 @@
 ---
 layout: single-cs
-# title: O TermItu/
+title: O TermItu
 permalink: /cs/about
 lang: cs
 lang-ref: about
@@ -33,7 +33,7 @@ feature_row3:
     url: https://kbss.felk.cvut.cz/termit-demo/
 ---
 
-# O TermItu
+<!-- # O TermItu -->
 
 TermIt je systém pro správu slovníků a pojmů umožňující jejich propojování do legislatvních nebo jiných dokumentů a dalších slovníků. Umožňuje vytvořit slovník pojmů obsažených v dokumentu, pevně definovat pojmy podle jejich významu a pomocí funkčních vztahů je propojit s pojmy z jiných slovníků.
 

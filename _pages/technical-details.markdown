@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: single
-# title: Technical Details
+title: Technical Details
 permalink: /technical-details
 lang: en
 lang-ref: technical-details
@@ -14,7 +14,7 @@ header:
 toc: true
 ---
 
-# Technical Details
+<!-- # Technical Details -->
 
 This page contains some technical background of TermIt. It describes the architecture of the system, libraries developed by us that it uses, and the data model at its core.
 

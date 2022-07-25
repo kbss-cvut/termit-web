@@ -13,7 +13,7 @@ header:
 toc: true
 ---
 
-# Technické detaily
+<!-- # Technické detaily -->
 
 Tato stránka obsahuje další technické pozadí systému TermIt. Popisuje architekturu systému, knihovny, které jsme vyvinuli a které TermIt používá a datový model použitý v základní verzi TermItu.
 

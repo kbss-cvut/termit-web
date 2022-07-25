@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: single-cs
-# title: Tutoriál
+title: Tutoriál
 permalink: /cs/tutorial
 lang: cs
 lang-ref: tutorial
@@ -13,7 +13,7 @@ header:
 toc: true
 ---
 
-# Tutoriál
+<!-- # Tutoriál -->
 
 Systém TermIt je navržen pro správu pojmů a slovníků, umožňuje ke slovníkům přiřazovat dokumenty a jiné zdroje  a propojovat je. Základní tutoriál popisuje je krok za krokem následující činnosti:
 * vyhledávání pojmů a procházení slovníků,

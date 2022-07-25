@@ -3,6 +3,7 @@ layout: single-cs
 permalink: /cs/documentation
 lang: cs
 lang-ref: documentation
+title: Dokumentace
 #classes: wide
 author_profile: true
 header:
@@ -12,7 +13,7 @@ toc: true
 toc_sticky: true
 
 ---
-# Dokumentace
+<!-- # Dokumentace -->
 
 V této sekci se postupně objeví dokumentace jednotlivých featur systému TermIt, seřazené podle abecedy.
 <!-- filter only posts with category 'Documentation' and sort alphabeticaly by title-->
