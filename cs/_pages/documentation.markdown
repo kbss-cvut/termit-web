@@ -20,5 +20,5 @@ V této sekci se postupně objeví dokumentace jednotlivých featur systému Ter
 
 {% assign posts = site.categories.Dokumentace | sort: 'title' %}
 {% for post in posts %}
-  {% include documentation-single.html type=entries_layout %}
+    {% include documentation-single.html type=entries_layout %}
 {% endfor %}
