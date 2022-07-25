@@ -12,6 +12,9 @@ main:
   - title: "Technické detaily"
     url: /cs/technical-details
     description: "Technické detaily o sytsému TermIt"
+  - title: "Dokumentace"
+    url: /cs/dokumentace
+    description: "Dokumentace featur"
   - title: 🇬🇧
     url: /
     description: "Anglicky"
