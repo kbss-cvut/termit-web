@@ -1,0 +1,92 @@
+I"=
+<div class="feature__wrapper">
+
+  
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/assets/images/installation.jpg" alt="" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">Instalace</h2>
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>Nástroj podporuje dockerizaci, instalace je tedy velice jednoduchá.</p>
+
+            </div>
+          
+
+          
+            <p><a href="/install" class="btn ">Stáhni a nainstaluj</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/assets/images/tutorial.jpg" alt="" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">Tutoriál</h2>
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>TermIt řeší různé problémy, od tvorby slovníků po anotaci zdrojů.</p>
+
+            </div>
+          
+
+          
+            <p><a href="/tutorial" class="btn ">Nauč mě jak</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/assets/images/data-model.jpg" alt="" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">Technické detaily</h2>
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>Architekturu systému TermIt, zajímavé knihovny, nebo použité datové modely najdete mezi technickými detaily.</p>
+
+            </div>
+          
+
+          
+            <p><a href="/technical-details" class="btn ">Ukaž mi detaily</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+
+</div>
+
+:ET

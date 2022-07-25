@@ -1,0 +1,298 @@
+I"�R<h1 id="tutoriál">Tutoriál</h1>
+
+<p>Systém TermIt je navržen pro správu pojmů a slovníků, umožňuje ke slovníkům přiřazovat dokumenty a jiné zdroje  a propojovat je. Základní tutoriál popisuje je krok za krokem následující činnosti:</p>
+<ul>
+  <li>vyhledávání pojmů a procházení slovníků,</li>
+  <li>označování výskytů pojmů a jejich definic v dokumentech,</li>
+  <li>vytváření nových slovníků a pojmů a jejich úpravy,</li>
+  <li>přiřazování dokumentů ke slovníku a jejich anotace.</li>
+</ul>
+
+<p>Chystáme pokročilý tutoriál, který podrobně ukáže pokročilé možnosti systému TermIt. Také je v přípravě dokumentace popisující všechny jednotlivé prvky systému (nezávisle na konkrétní činnosti).</p>
+
+<h2 id="sandbox">Sandbox</h2>
+<p>Na stránce <a href="https://kbss.felk.cvut.cz/termit-dev/">https://kbss.felk.cvut.cz/termit-dev/</a> se nachází vývojová verze systému TermIt. Obsahuje několik slovníků naplněných pojmy, některé z nich mají přiřazené dokumenty. Nasazení je možné procházet v několika různých režimech v závislosti na uživatelských právech:</p>
+<ul>
+  <li>bez uživatelského účtu – je možné procházet všechny slovníky a všechny pojmy, není možné editovat, anotovat ani komentovat, zobrazovat dokumenty ani jiné zdroje. Funkcionalita je velice omezená, tento režim by měl sloužit veřejnosti k prohlížení slovníků a pojmů,</li>
+  <li>s uživatelskými právy typu “Čtenář” – uživatel jse schopen procházet slovníky, pojmy i datové zdroje. Dále vidí rozšířené vlastnosti pojmů i slovníků, může zobrazit definici pojmu v dokumentu a jednotlivé pojmy komentovat. Nemůže pojmy ani slovníky editovat a nemůže anotovat dokumenty. Tento režim slouží pro odborné uživatele, kteří se chtějí k pojmům a slovníkům vyjadřovat, ale nechtějí je přímo editovat,</li>
+  <li>s uživatelskými právy typu “Editor” – uživatel má plný přístup k editace všech slovníků i pojmů a může anotovat dokumenty. Tento režim je určen pro doménové experty, kteří ovládají doménu slovníku a jsou jeho hlavními tvůrci,</li>
+  <li>s uživatelskými právy typu “Administrátor” – tento uživatel má plný přístup ke všem slovníkům, pojmům i datovým zdrojům, navíc může vytvářet nové uživatele a přidělovat jim uživatelská práva.
+Přestože se jedná o vývojovou verzi systému, nedoporučujeme dělat změny ve slovnících, které již existují. Pro experimentování si vytvořte vlastní slovník, nebo si nainstalujte vlastní instanci systému TermIt (podle návodu v <a href="/cs/install">záložce Instalace</a>).</li>
+</ul>
+
+<h2 id="základní-tutoriál">Základní tutoriál</h2>
+<p>Základní úkoly, tedy ty, které budou uživtaelé systému TermIt provádět po většinu času, jsou shrnuty v základním tutoriálu. Tutoriál je rozdělen do sekcí podle jednotlivých úkolů.</p>
+
+<h3 id="vyhledávání-pojmů-a-procházení-slovníků">Vyhledávání pojmů a procházení slovníků</h3>
+
+<p>Elementárním úkolem je vyhledání pojmů. Pojmem je v TermItu myšlen koncept ve specifikovaném kontextu, například “stavba” může být reprezentována dvěma pojmy, kde jeden reprezentuje stavbu jako objekt a druhý jako proces. Pojmy jsou zpravidla definovány v kontextu slovníku, například slovníku legislativního dokumentu (pojem “budova” podle katastrálního zákona) nebo konkrétní datové sady (například koncepty BIM).</p>
+
+<p>Pokusme se vyhledat pojem “Lokalita” ze slovníku “Slovník Pražských stavebních předpisů 2016 - slovník”.</p>
+
+<h4 id="vyhledávací-lišta">Vyhledávací lišta</h4>
+<p>Nejjednodušším způsobem vyhledávání pojmů je zadat jejich název do vyhledávací lišty umístěné v horní části stránky.</p>
+
+<figure class="">
+  <img src="/assets/images/tutorial-cs/vyhledavaci_lista.png" alt="Vyhledávání pojmu ve vyhledávací liště" /><figcaption>
+      Vyhledávání pojmu ve vyhledávací liště.
+
+    </figcaption></figure>
+
+<p>Při zadání několika znaků se pod lištou objeví seznam výsledků odpovídající vyhledávání. Výsledky obsahují název, typ (pojem, dokument, slovník…) a zdroj. Potvrzení zadání klávesou Enter zobrazí detaily vyhledávání. Kliknutím na hledaný pojem - v tomto případě ten první v seznamu - se dostaneme na detail pojmu.</p>
+
+<h4 id="prohledávání-slovníků">Prohledávání slovníků</h4>
+
+<p>Další způsob, jak získat předhled o pojmech, je prohledáváním slovníků. V levém panelu se nachází stránka “Slovníky”. Po jejím otevření se zobrazí seznam slovníků a nad nimi řádka pro filtrování. Vyhledáme “Slovník Pražských stavebních přespisů 2016 - slovník”.</p>
+
+<figure class="">
+  <img src="/assets/images/tutorial-cs/slovn%C3%ADky.png" alt="Vyhledávání slovníku" /><figcaption>
+      Vyhledávání slovníku.
+
+    </figcaption></figure>
+
+<p>Po kliknutí na slovník se zobrazí jeho detail. Na úvodní stránce je vedle základních informací o slovníku otevřená záložka se seznamem všech pojmů ze slovníku v hierarchické struktuře. V řádce nad nimi je možné pojmy filtrovat.</p>
+
+<figure class="">
+  <img src="/assets/images/tutorial-cs/pojmy_ve_slovn%C3%ADku.png" alt="Procházení pojmů ve slovníku" /><figcaption>
+      Procházení pojmů ve slovníku.
+
+    </figcaption></figure>
+
+<p>Po kliknutí na pojem je zobrazen jeho detail.</p>
+
+<h4 id="detail-pojmu">Detail pojmu</h4>
+
+<p>Detail pojmu obsahuje základní informace o pojmu, hierarchickou strukturu ostatních pojmů ve stejném slovníku a detailní informace o pojmu v záložkách v dolní části stránky.</p>
+
+<figure class="">
+  <img src="/assets/images/tutorial-cs/detail_1.png" alt="Základní informace o pojmu" /><figcaption>
+      Základní informace o pojmu.
+
+    </figcaption></figure>
+
+<h3 id="označování-výskytu-pojmů-a-jejich-definic-v-dokumentech">Označování výskytu pojmů a jejich definic v dokumentech</h3>
+
+<p>Slovníky jsou zpravidla propojeny s dokumenty, které obsahují jejich definice a výskyty. V levém panelu otevřete stránku “Slovníky” a vyhledejte slovník “Slovník Metropolitního plánu ve verzi 3.5 návrh k projednání”. Po jeho otevření ve spodní části detailu otevřete záložku “Dokument”.</p>
+
+<figure class="">
+  <img src="/assets/images/tutorial-cs/detail_slovn%C3%ADku.png" alt="Detail dokumentu přiřazeného ke slovníku" /><figcaption>
+      Detail dokumentu přiřazeného ke slovníku.
+
+    </figcaption></figure>
+
+<p>Mezi detailními informacemi je název a popis dokumentu a seznam přiřazených pojmů. Jedná se o pojmy, které mají v dokumentu označen výskyt. Na spodním řádku je název dokumentu s tlačítky “Obsah” a “Odstranit”. Kliknutím na “Obsah” zobrazíme text samotného dokumentu.</p>
+
+<figure class="">
+  <img src="/assets/images/tutorial-cs/obsah_dokumentu.png" alt="Obsah dokumentu s označenýmu výskyty pojmů" /><figcaption>
+      Obsah dokumentu s označenýmu výskyty pojmů.
+
+    </figcaption></figure>
+
+<p>V textu dokumentu jsou zeleně označeny výskyty pojmů, modře jejich definice. Po kliknutí na výskyt nebo definici se otevře pop-up. Zde je možné výskyt nebo definici smazat nebo upravit. Kliknutím na její název se dostanem na detail pojmu.</p>
+
+<figure class="">
+  <img src="/assets/images/tutorial-cs/v%C3%BDskyt.png" alt="Detail výskytu pojmu" /><figcaption>
+      Detail výskytu pojmu.
+
+    </figcaption></figure>
+
+<h3 id="vytváření-nových-slovníků-a-pojmů">Vytváření nových slovníků a pojmů</h3>
+
+<p>V rámci tohoto úkolu vytvoříme nový slovník, přiřadíme mu dokument a vytvoříme několik pojmů.</p>
+
+<h3 id="vytvoření-nového-slovníku">Vytvoření nového slovníku</h3>
+
+<p>V levém panelu klikněte na “Nový slovník”. Na stránce vyplňte název jako “Testovací slovník [vaše jméno]” a volitelně vyplňte popis.</p>
+
+<figure class="">
+  <img src="/assets/images/tutorial-cs/nov%C3%BD_slovn%C3%ADk.png" alt="Dialog vytvoření nového slovníku" /><figcaption>
+      Dialog pro vytvoření nového slovníku.
+
+    </figcaption></figure>
+
+<p>Ke slovníku můžete rovnou při jeho vytvoření přiřadit soubor. Pro tyto účely použijeme HTML verzi katastrálního zákona ze stránky <a href="https://www.zakonyprolidi.cz/print/cs/2013-256/zneni-20210101.htm?sil=1">Zákony pro lidi</a>. Klikněte na stránku pravým tlačítkem myši a vyberte “Uložit stránku jako…” (může se lišit podle použitého internetového prohlížeče). V dialogu pro vytvoření nového slovníku klikněte na řádce “Soubory” na tlačítko “+ Přidat”.</p>
+
+<figure class="">
+  <img src="/assets/images/tutorial-cs/nov%C3%BD_soubor.png" alt="Dialog vytvoření nového souboru" /><figcaption>
+      Dialog pro vytvoření nového souboru.
+
+    </figcaption></figure>
+
+<p>Přetáhněte stažený soubor do dialogu, nebo klikněte do horní části dialogu a vyberte HTML soubor stažený ze Zákonů pro lidi. Název souboru přepiště na “soubor pro slovník [vaše jméno]”. Potvrďte stisknutím tlačítka “Vytvořit”. V dialogu vytvoření nového slovníku je nyní přidán Váš nový soubor. Potvrďte vytvoření nového slovníku kliknutím na tlačítko “Vytvořit”. V pravé horní části stránky vyskočí několik zelených informačních oken potvrzující úsoěšné vytvoření slovníku i souboru. Po chvíli samy zmizí.</p>
+
+<figure class="">
+  <img src="/assets/images/tutorial-cs/slovn%C3%ADk.png" alt="Nový slovník úspěšně vytvořen" /><figcaption>
+      Nový slovník je úspěšně vytvořen.
+
+    </figcaption></figure>
+
+<h4 id="vytvoření-nových-pojmů">Vytvoření nových pojmů</h4>
+
+<p>Pojmy je možné vytvářet v detailu slovníku, nebo přímo v textu souboru. V této části tutoriálu vytvoříme několik nových pojmů v detailu slovníku.</p>
+
+<p>Přejděte do detailu vašeho slovníku. V záložce “Pojmy” (měla by být otevřená jako výchozí) klikněte na tlačítko “+ Nový pojem”.</p>
+
+<p>V nově otevřeném dialogu vyplníme následující atributy:</p>
+
+<ul>
+  <li>název: “Parcela” – jedná se název pojmu, který slouží zároveň i jako jednoznačné určení pojmu v rámci slovníku,</li>
+  <li>synonyma: “katastrální parcela” – jedná se o texty, pod kterými je pojem také označován. Slouží především k vyhledávání a anotaci. Může obsahovat také používané zkratky. Synonymum je potřeba potvrdit stisknutím tlačítka “+ Přidat”,</li>
+  <li>definice, text: “Parcela je pozemek, který je geometricky a polohově určen a označen parcelním číslem.” – jedná se o jednoznačnou definici pojmu, zpravidla určenou v dokumentu. Definice je vždy v daném kontextu a musí být právě jedna,</li>
+  <li>definice, zdroj: “§ 2, b)” – označuje zdroj definice pojmu formou textu.</li>
+</ul>
+
+<p>Další pole ponecháme prázdná a stiskneme tlačítko “Vytvořit a začít nový”.</p>
+
+<figure class="">
+  <img src="/assets/images/tutorial-cs/pojem_parcela.png" alt="Tvorba nového pojmu" /><figcaption>
+      Tvorba nového pojmu.
+
+    </figcaption></figure>
+
+<p>Podobným způsobem vytvoříme pojmy “Stavební parcela”, “Pozemková parcela”, “Katastrální území” a “Katastrální mapa”. Definice a jejich zdroje vyplňte podle svého.</p>
+
+<p>V horní části dialogu můžete přidat záložku s jinou jazykovou verzí. Pro naše nasazení systému TermIt je závazným jazykem čeština.</p>
+
+<h4 id="kontrola-a-editace-pojmů">Kontrola a editace pojmů</h4>
+
+<p>Při návratu do detailu slovníku nyní vidíme v záložce “Pojmy” seznam našich pojmů. Před každým z nich je barevná tečka, která označuje úplnost detailů pojmu.</p>
+
+<figure class="">
+  <img src="/assets/images/tutorial-cs/validace.png" alt="Seznam nových pojmů" /><figcaption>
+      Seznam nových pojmů.
+
+    </figcaption></figure>
+
+<p>Kliknutím otevřeme detail pojmu “Pozemková parcela” a ve spodní části otevřeme záložku “Kontrola”.</p>
+
+<figure class="">
+  <img src="/assets/images/tutorial-cs/kontrola.png" alt="Chyby v úplnosti detailů pojmu" /><figcaption>
+      Chyby v úplnosti detailů pojmu.
+
+    </figcaption></figure>
+
+<p>V záložce jsou uvedeny některé chyby úplnosti pojmů. Editací pojmů se pokusíme tyto chyby opravit. V pravé horní části detailu pojmu “Pozemková parcela” klikněte na tlačítko editovat. Otevře se Vám dialog shodný s tím pro tvorbu pojmu s vyplněnými hodnotami atributů.</p>
+
+<p><strong>Pojem nemá definován obsahový typ</strong></p>
+
+<p>Tato chyba oznamuje, že pojem nemá definován obsahový typ. Obsahovým typem je charakter pojmu a je významný pro modelování vztahů mezi jednotlivými pojmy a odvozování dalších vlastností. Rozlišujeme typy a individuály (typem je “výrobce automobilů” a individuálem “Škoda Auto”) ve čtyřech kategoriích:</p>
+
+<ul>
+  <li>objekt/typ objektu, – nezávislé, v čase se měnící prvky,</li>
+  <li>vlastnost/typ vlastnosti – kvalitativní nebo kvantitativní vlastnosti závislé na objektech,</li>
+  <li>vztah/typ vztahu – propojení mezi dvěma (nebo více objekty), které je na nich závislé,</li>
+  <li>událost/typ události – nezávislé, v čase neměnné prvky (kompletně ukončené v minulosti).</li>
+</ul>
+
+<p>Hodnotu atributu “Typ pojmu” pro pojem “Pozemková parcela” nastavíme na “Typ objektu”.</p>
+
+<p><strong>Pojem nemá zdroj</strong></p>
+
+<p>Definice se skládá z textu a zdroje. Oba prvky jsou nutné ke 100 % validaci úplnosti pojmu. Jako zdroj pojmu “Pozemková parcela” vyplním “§ 2, d)”.</p>
+
+<p><strong>Pojem nemá rodiče</strong></p>
+
+<p>Pojmy mezi sebou zpravidla mají hierarchické vztahy. Do atributu “Nadřazené pojmy” je možné vložit pojem ze stejného nebo importovaného slovníku (těmi se budeme zabývat pozdeji). Vybereme pojem “Parcela”.</p>
+
+<figure class="">
+  <img src="/assets/images/tutorial-cs/opravy_chyb.png" alt="Opravy chyb editací pojmu" /><figcaption>
+      Opravy chyb editací pojmu.
+
+    </figcaption></figure>
+
+<p>Změny potvrdíme stisknutím tlačítka “Uložit”.</p>
+
+<p>Ve spodní části detailu pojmu je záložka “Kontrola”. Jejím otevřením zjistíme, že chyby u pojmu “Pozemková parcela” byly opraveny. Zároveň vidíme, že vedle názvu pojmu svítí zelené kolečko. V pravé části stránky – v seznamu pojmů – vidíme, že se vytvořila hierarchická relace mezi pojmy “Parcela” a “Pozemková parcela”.</p>
+
+<figure class="">
+  <img src="/assets/images/tutorial-cs/hierarchie.png" alt="Nově vytvořená hierarchie mezi pojmy" /><figcaption>
+      Nově vytvořená hierarchie mezi pojmy.
+
+    </figcaption></figure>
+
+<p>Editací můžete opravit i chyby dalších pojmů.</p>
+
+<h3 id="anotace-dokumentů">Anotace dokumentů</h3>
+
+<p>V této části tutoriálu budeme pracovat s dokumentem, který jsme nahráli při tvorbě slovníku. V detailu slovníku přepněte do záložky “Dokument” a tlačítkem “Obsah” u vašeho souboru ho zobrazte.</p>
+
+<figure class="">
+  <img src="/assets/images/tutorial-cs/zobrazen%C3%AD_souboru.png" alt="Zobrazení souboru přiřazeného slovníku" /><figcaption>
+      Zobrazení souboru přiřazeného slovníku.
+
+    </figcaption></figure>
+
+<p>Slovník již obsahuje některé pojmy, které se ve slovníku nachází. Spustíme analýzu textu souboru pomocí našeho slovníku. Vpravo nahoře je tlačítko “Analyzovat”. Po jeho stisknutí se objeví pop-up s roletovým menu, ze kterého vybereme slovník, podle kterého proběhne analýza textu. Výchozí je ten náš, necháme ho tam a stiskneme “Analyzovat”.</p>
+
+<figure class="">
+  <img src="/assets/images/tutorial-cs/analyzovat.png" alt="Dialog pro výběr slovníku pro automatickou analýzu souboru" /><figcaption>
+      Dialog pro výběr slovníku pro automatickou analýzu souboru.
+
+    </figcaption></figure>
+
+<p>Analýza může v závislosti na velikosti souboru a slovníku chvilku trvat. Výsledkem analýzy je návrh výskytů pojmů, které ve slovníku již existují a návrh nových pojmů a jejich výskytů.</p>
+
+<figure class="">
+  <img src="/assets/images/tutorial-cs/anal%C3%BDza.png" alt="Výsledek analýzy souboru" /><figcaption>
+      Výsledek analýzy souboru.
+
+    </figcaption></figure>
+
+<h4 id="potvrzení-výskytu-pojmu">Potvrzení výskytu pojmu</h4>
+
+<p>Pojmy označené zeleně s tečovaným ohraničením jsou navrhované výskyty existujících pojmů. Klikneme na návrh výskytu pojmu s textem “parcelou” v písmenu b) druhého paragrafu. Navrhovaným pojmem je “Parcela”. Stisknutím fajfky výskyt potvrdíme. Tlačítko s ikonou tužky nabízí vybrat jiný pojem ze slovníku a malý odpadkový koš navrhovaný výskyt pojmu zahodí. Stisknutím křížku zavřeme pop-up. My výskyt potvrdíme a tím zmizí ohraničení pojmu.</p>
+
+<figure class="">
+  <img src="/assets/images/tutorial-cs/potvrzen%C3%AD_v%C3%BDskytu.png" alt="Potvrzení návrhovaného výskytu existujícího pojmu" /><figcaption>
+      Potvrzení návrhovaného výskytu existujícího pojmu.
+
+    </figcaption></figure>
+
+<h4 id="vytvoření-nového-pojmu-na-základě-návrhu">Vytvoření nového pojmu na základě návrhu</h4>
+
+<p>V písmenu a) druhého paragrafu je navržen výskyt doposud neexistujícího pojmu s textem “pozemkem”. Rozhodneme se návrh přijmout. Kliknutím na označený text otevřeme podobný pop-up jako při potvrzování výskytu existujícího pojmu, ale s upozorněním, že <em>Fráze není přiřazena žádnému pojmu</em>. Kliknutím na ikonku tužky můžeme vybrat existující pojem, nebo vytvořit nový.</p>
+
+<figure class="">
+  <img src="/assets/images/tutorial-cs/vytvo%C5%99en%C3%AD_nov%C3%A9ho_pojmu_n%C3%A1vrh.png" alt="Vytvoření nového pojmu na základě návrhu výskytu neexistujícího pojmu" /><figcaption>
+      Vytvoření nového pojmu na základě návrhu výskytu neexistujícího pojmu.
+
+    </figcaption></figure>
+
+<p>Po kliknutí na tlačítko “+ Nový” se otevře vyskakovací okno s dialogem velice podobným vytvoření pojmu ze slovníku s předvyplněným názvem podle vybraného textu. Text může být upraven. Nad políčkem Textu definice je zde nově tlačítko “Vybrat definici”. To nám umožňuje vybrat definici přímo z textu. Stiskneme ho a označíme text ve zbytku písmene a druhého paragrafu. Po označení textu se vrátíme automaticky zpět do dialogu s již vyplněným textem definice. Vyplníme ještě zdroj “§ 2, a)”, v pokročilých možnostech vybereme jako Typ pojmu “Typ objektu” a stiskneme “Vytvořit”.</p>
+
+<figure class="">
+  <img src="/assets/images/tutorial-cs/vybrat_definici.png" alt="Dialog pro tvorbu pojmu z textu souboru" /><figcaption>
+      Dialog pro tvorbu pojmu z textu souboru.
+
+    </figcaption></figure>
+
+<p>Po potvrzení vytvoření pojmu je pojem označen zeleně a jeho definice modře.</p>
+
+<figure class="">
+  <img src="/assets/images/tutorial-cs/v%C3%BDskyt+definice.png" alt="Označení výskytu pojmu a jeho definice" /><figcaption>
+      Označení výskytu pojmu a jeho definice.
+
+    </figcaption></figure>
+
+<h4 id="vytvoření-nového-pojmu-z-textu">Vytvoření nového pojmu z textu</h4>
+
+<p>V písmenu e) druhého paragrafu se nachází pojem “geometrické určení”, který není navržen jako výskyt pojmu. Pokud ho označíme myší, vyskočí pop-up dialog s dotazem, zda chceme označit výskyt pojmu, nebo jeho definici. Vybereme výskyt. Dále pokračujeme jako v případě vytvoření nového pojmu na základě návrhu.</p>
+
+<figure class="">
+  <img src="/assets/images/tutorial-cs/vybran%C3%BD_text.png" alt="Výběr textu a volba mezi označením výskytu nebo definice" /><figcaption>
+      Výběr textu a volba mezi označením výskytu nebo definice.
+
+    </figcaption></figure>
+
+<h4 id="označení-definice">Označení definice</h4>
+
+<p>Druhou věcí, kterou je možné označit přímo v textu, je definice pojmu. Označíme definici pojmu “Parcela”, který již text definice vyplněný má. Na řádku b) označte celý text od slovna pozemek na začátku až po čárku na konci. V pop-up okně zvolíme, že označujeme definici a z roletové nabídky vybereme pojem “Parcela”. Vzhledem k tomu, že pojem již definici má, objeví se okno s porovnáním stávajícího i nového textu definice.</p>
+
+<figure class="">
+  <img src="/assets/images/tutorial-cs/zm%C4%9Bna_definice.png" alt="Porovnání stávajícího a nového textu definice" /><figcaption>
+      Porovnání stávajícího a nového textu definice.
+
+    </figcaption></figure>
+
+<p>Text definice je možné upravovat, stejně jako její zdroj. Stisknutím tlačítka “Uložit” je změněn text definice pojmu a zároveň je v textu označena definice pojmu.</p>
+:ET

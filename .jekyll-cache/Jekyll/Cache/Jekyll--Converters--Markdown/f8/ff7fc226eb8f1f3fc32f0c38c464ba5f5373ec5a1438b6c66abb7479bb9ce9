@@ -1,0 +1,124 @@
+I"<h1 id="about-termit">About TermIt</h1>
+
+<p>TermIt is a system for management of terms and vocabularies and their interconnection to legislation (or other documents) and other vocabularies.</p>
+
+<p>Motivation to create such a system originates in a need to describe terms used by different groups of experts to make them understand each other without a need to learn new terminology. Without being an ontology expert, it was impossible to achieve the aforementioned goal. The tool helps domain experts to create ontological glossaries and interconnect their terms to other vocabularies.</p>
+
+<h2 id="deployments">Deployments</h2>
+
+<p>TermIt is an open-source project. The core version is developed on <a href="https://github.com/kbss-cvut/termit">GitHub</a>. For specific customers were created few specific versions. TermIt is already running in following deployments:</p>
+
+<div class="feature__wrapper">
+
+  
+    <div class="feature__item--right">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/assets/images/about/deployment1.jpg" alt="Deployment on IPR" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">TermIt deployment on IPR</h2>
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>TermIt runs on Institute of Planning and Development of Prague (IPR) since 2021. TermIt was originally created in the project OPPPR and IPR tested its usability – to describe Metropolitan plan and help to relate it to the legislation. Nowadays, TermIt serves for systemization of terminology in other projects, e.g. Uniform Interchangeable Format of the Digital Technical Map (JVF DTM) and Building Intelligence Model (BIM).</p>
+
+            </div>
+          
+
+          
+            <p><a href="https://termit.fel.cvut.cz/ipr/#/public" class="btn ">See TermIt on IPR</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+
+</div>
+
+<div class="feature__wrapper">
+
+  
+    <div class="feature__item--left">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/assets/images/about/deployment2.jpg" alt="Deployment in KODI" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">TermIt deployment in KODI</h2>
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>Ministry of interior of the Czech Republic incorporated TermIt as a part of the production line for creation of open data, including proper documentation. TermIt serves as a tool for creation of legislation glossaries. They are used to annotate data sets and create interlinks between legislation. Content of this deployment is not yet publicly accessible.</p>
+
+            </div>
+          
+
+          
+        </div>
+      </div>
+    </div>
+  
+
+</div>
+
+<p><a href="/install">Install</a> and try  core version. Feel free to <a href="mailto:petr.kremen@fel.cvut.cz">contact us</a>, if there is something missing, or report issue in <a href="https://github.com/kbss-cvut/termit-ui">this repository</a>. TermIt is partly modular system and we can deploy it specifically for Your needs.</p>
+
+<h2 id="live-demo">Live demo</h2>
+
+<div class="feature__wrapper">
+
+  
+    <div class="feature__item--right">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/assets/images/about/demo.png" alt="Live demo" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">Live demo</h2>
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>Users may try live demo of system TermIt with limited permissions to browse vocabularies and terms, e.g. Metropolitan plan, Building laws of the Czech Republic and New Zealand and others.</p>
+
+            </div>
+          
+
+          
+            <p><a href="https://kbss.felk.cvut.cz/termit-demo/" class="btn ">Try live demo</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+
+</div>
+
+<h1 id="contributing">Contributing</h1>
+
+<p>Do You want to contribute? Feel free to fork the respective repository:</p>
+<ul>
+  <li><a href="https://github.com/kbss-cvut/termit-ui">frontend</a></li>
+  <li><a href="https://github.com/kbss-cvut/termit">backend</a></li>
+  <li><a href="https://github.com/kbss-cvut/termit-docker">docker instrumentation</a>
+and open a pull request with Your contribution.</li>
+</ul>
+:ET

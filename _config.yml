@@ -99,7 +99,7 @@ author:
   avatar           : "/assets/images/about/KBSS.jpg"
   bio              : #""
   location         : "FEE CTU in Prague"
-  email            : "mailto:petr.kremen@fel.cvut.cz"
+  email            : "mailto:michal.med@fel.cvut.cz"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"

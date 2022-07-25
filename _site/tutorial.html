@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>TermIt</title>
-<meta name="description" content="TermIt is a tool to manage vocabularies, terms and resources in which are the terms defined and used. It is focused on managment of terms based on their semantics – i.e. two ‘same’ terms in different vocabularies may have different menaing.">
+<!-- begin _includes/seo.html --><title>Tutorial | TermIt</title>
+<meta name="description" content="TermIt is a tool to manage vocabularies, terms and resources in which are the terms defined and used. It is focused on management of terms based on their semantics – i.e. two ‘same’ terms in different vocabularies may have different meaning.">
 
 
   <meta name="author" content="Knowledge-based and Software Systems Group">
@@ -20,30 +20,30 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="TermIt">
-<meta property="og:title" content="TermIt">
-<meta property="og:url" content="/tutorial">
+<meta property="og:title" content="Tutorial">
+<meta property="og:url" content="http://localhost:4000/tutorial">
 
 
-  <meta property="og:description" content="TermIt is a tool to manage vocabularies, terms and resources in which are the terms defined and used. It is focused on managment of terms based on their semantics – i.e. two ‘same’ terms in different vocabularies may have different menaing.">
-
-
-
-  <meta property="og:image" content="/assets/images/tutorial-header.jpg">
+  <meta property="og:description" content="TermIt is a tool to manage vocabularies, terms and resources in which are the terms defined and used. It is focused on management of terms based on their semantics – i.e. two ‘same’ terms in different vocabularies may have different meaning.">
 
 
 
+  <meta property="og:image" content="http://localhost:4000/assets/images/tutorial-header.jpg">
 
 
 
 
 
 
-  
+
+
 
   
 
+  
 
-<link rel="canonical" href="/tutorial">
+
+<link rel="canonical" href="http://localhost:4000/tutorial">
 
 
 
@@ -54,7 +54,7 @@
     
       "@type": "Person",
       "name": "Knowledge-based and Software Systems Group",
-      "url": "/"
+      "url": "http://localhost:4000/"
     
   }
 </script>
@@ -132,17 +132,15 @@
           <span class="site-subtitle">Manage your terms</span>
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/">Quick-Start Guide, pak smazat</a>
-            </li><li class="masthead__menu-item">
               <a href="/about" title="About the TermIt project">About</a>
             </li><li class="masthead__menu-item">
               <a href="/install" title="Installation guide">Install</a>
             </li><li class="masthead__menu-item">
               <a href="/tutorial" title="Tutorials on usage of TermIt">Tutorial</a>
             </li><li class="masthead__menu-item">
-              <a href="/deployments" title="Running deployments">Deployments</a>
+              <a href="/technical-details" title="Technical details about TermIt">Technical details</a>
             </li><li class="masthead__menu-item">
-              <a href="/data-model" title="Data model used in TermIt">Data Model</a>
+              <a href="/cs" title="Czech">🇨🇿</a>
             </li></ul>
         
         <button class="greedy-nav__toggle hidden" type="button">
@@ -170,7 +168,7 @@
   style=" background-image: url('');"
 >
   
-    <img src="/assets/images/tutorial-header.jpg" alt="" class="page__hero-image">
+    <img src="/assets/images/tutorial-header.jpg" alt="Tutorial" class="page__hero-image">
   
   
     <span class="page__hero-caption">Photo credit: <a href="https://unsplash.com/@macroman?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"><strong>Immo Wegmann</strong></a> on <a href="http://unsplash.com/"><strong>Unsplash</strong></a>
@@ -184,10 +182,127 @@
 
 <div id="main" role="main">
   
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <img src="/assets/images/about/KBSS.jpg" alt="Knowledge-based and Software Systems Group" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Knowledge-based and Software Systems Group</h3>
+    
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">FEE CTU in Prague</span>
+        </li>
+      
+
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <li><a href="https://github.com/kbss-cvut/termit" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+        
+      
+
+      
+
+      
+        <li>
+          <a href="mailto:mailto:michal.med@fel.cvut.cz">
+            <meta itemprop="email" content="mailto:michal.med@fel.cvut.cz" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    
+    <meta itemprop="headline" content="Tutorial">
     
     
     
@@ -195,7 +310,8 @@
     <div class="page__inner-wrap">
       
         <header>
-          
+          <h1 id="page-title" class="page__title" itemprop="headline">Tutorial
+</h1>
           
 
 
@@ -207,33 +323,290 @@
           <aside class="sidebar__right ">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
-              <ul class="toc__menu"><li><a href="#basic-tutorials">Basic tutorials</a><ul><li><a href="#tutorial-on-doing-this-and-this">Tutorial on doing this and this</a><ul><li><a href="#first-step">First step</a></li><li><a href="#second-step">Second step</a></li></ul></li><li><a href="#tutorial-on-doing-this-and-that">Tutorial on doing this and that</a></li></ul></li></ul>
+              <ul class="toc__menu"><li><a href="#tutorial">Tutorial</a><ul><li><a href="#sandbox">Sandbox</a></li><li><a href="#basic-tutorial">Basic tutorial</a><ul><li><a href="#searching-terms-and-browsing-vocabularies">Searching terms and browsing vocabularies</a><ul><li><a href="#search-bar">Search bar</a></li><li><a href="#browsing-vocabularies">Browsing vocabularies</a></li><li><a href="#term-detail">Term detail</a></li></ul></li><li><a href="#marking-occurrences-of-terms-and-their-definitions-in-documents">Marking occurrences of terms and their definitions in documents</a></li><li><a href="#creating-new-vocabularies-and-terms">Creating new vocabularies and terms</a></li><li><a href="#creating-new-vocabulary">Creating new vocabulary</a><ul><li><a href="#creating-new-terms">Creating new terms</a></li><li><a href="#term-control-and-editing">Term control and editing</a></li></ul></li><li><a href="#annotate-documents">Annotate documents</a><ul><li><a href="#term-occurrence-confirmation">Term occurrence confirmation</a></li><li><a href="#creating-new-term-based-on-a-suggestion">Creating new term based on a suggestion</a></li><li><a href="#creating-new-term-from-text">Creating new term from text</a></li><li><a href="#mark-term-definition">Mark term definition</a></li></ul></li></ul></li></ul></li></ul>
 
             </nav>
           </aside>
         
-        <h1 id="basic-tutorials">Basic tutorials</h1>
-<p>Tutorial on Termit basic features.
-Its based on the google sheets tutorial.</p>
+        <h1 id="tutorial">Tutorial</h1>
 
-<p>This is sample of image</p>
+<p>TermIt is designed for terms and vocabularies management. It allows users to assign terms from the specific vocabularies to the documents or any other resources and interconnect them. The basic tutorial describes following activities:</p>
+<ul>
+  <li>searching terms and browsing vocabularies,</li>
+  <li>marking occurrences of terms and their definitions in documents,</li>
+  <li>creating and editing vocabularies and terms,</li>
+  <li>assigning document to the vocabulary and its annotation.</li>
+</ul>
+
+<p>Advanced tutorial and documentation describing all tools in TermIt is under construction.</p>
+
+<h2 id="sandbox">Sandbox</h2>
+<p>The page <a href="https://kbss.felk.cvut.cz/termit-demo">https://kbss.felk.cvut.cz/termit-demo</a> contains a live demo version of TermIt. It allows various levels of access based on the user permission:</p>
+
+<ul>
+  <li>No account – it is possible only to browse data, it is not possible to edit term or vocabularies, show documents or other sources. Functionality is very limited. This Regime shall serve to public to view the data.</li>
+  <li>Reader account – readers may browse vocabularies, terms and sources. They can see additional details of terms and vocabularies, show definition of a term in a document and comment. They cannot edit or create new terms or vocabularies. This regime serves for users from within the organization that want to comment the work. If you register to the live demo, this is the type of account you get.</li>
+  <li>Editor account – users have a full rights to browse, edit and create terms, vocabularies and sources and can also annotate documents. This regime is determined to the domain experts perfectly knowing the data. They are usually main creators of the vocabulary. This type of account must be granted by administrator.</li>
+  <li>Administrator account – administrator has full access to all features, including assigning roles of other users and creating new users.</li>
+</ul>
+
+<p>We recommend to install local instance of TermIt (use guide in <a href="/install">tab Install</a>).</p>
+
+<h2 id="basic-tutorial">Basic tutorial</h2>
+
+<p>Basic tasks – those comprising most of the work usually done in TermIt – are briefly described in the basic tutorial.</p>
+
+<h3 id="searching-terms-and-browsing-vocabularies">Searching terms and browsing vocabularies</h3>
+
+<p>Searching terms is an elementary task. Term in TermIt is a concept in specified context, e.g. ‘construction’ may be represented by two terms, where one stands for a constructed object (building) and second one represents a process of a constructing a building. Terms are usually defined in a context of a vocabulary, e.g. vocabulary of a specific legislative document (construction in a meaning of a specific law) or a specific data set (set of ongoing constructions of building within a municipality).</p>
+
+<p>Let’s find a term “Building” from the vocabulary ‘Vocabulary of Prague Building Regulations 2016’.</p>
+
+<h4 id="search-bar">Search bar</h4>
+<p>The easiest way of searching terms is typing their name (label) into the search bar in the upper part of the page.</p>
+
 <figure class="">
-  <img src="/assets/images/tutorial.jpg" alt="this is a placeholder image" /><figcaption>
-      This is a figure caption.
+  <img src="/assets/images/tutorial/search-bar.png" alt="Searching for a term using search bar" /><figcaption>
+      Searching for a term using search bar.
 
     </figcaption></figure>
 
-<h2 id="tutorial-on-doing-this-and-this">Tutorial on doing this and this</h2>
-<p>This is easy while  this is not.</p>
+<p>By pressing enter you get search details. Results contain label, type (term, vocabulary, document…) and source. Clicking a term shows its details.</p>
 
-<h3 id="first-step">First step</h3>
-<p>First step is to do this.</p>
+<h4 id="browsing-vocabularies">Browsing vocabularies</h4>
 
-<h3 id="second-step">Second step</h3>
-<p>Second step is to do this, too.</p>
+<p>Another way is browsing vocabularies. Click on “vocabularies” in the left panel to see the list of vocabularies. Above the list is a text field for filtering. Use it to filter out the vocabulary called ‘Vocabulary of Prague Building Regulations 2016’.</p>
 
-<h2 id="tutorial-on-doing-this-and-that">Tutorial on doing this and that</h2>
-<p>This is much easier than that.</p>
+<figure class="">
+  <img src="/assets/images/tutorial/vocabularies.png" alt="Filtering vocabulary" /><figcaption>
+      Filtering vocabulary.
+
+    </figcaption></figure>
+
+<p>Clicking the vocabulary shows its detail. Below the basic details is open tab ‘Terms’ with the list of all terms in a hierarchic structure. Empty text box above allows filtering terms.</p>
+
+<figure class="">
+  <img src="/assets/images/tutorial/terms-in-vocab.png" alt="Browsing terms in a vocabulary" /><figcaption>
+      Browsing terms in a vocabulary.
+
+    </figcaption></figure>
+
+<p>Click the term to show its detail.</p>
+
+<h4 id="term-detail">Term detail</h4>
+
+<p>Term detail contains basic information about the term, hierarchic structure of other terms in the same vocabulary and detailed information about the term in tabs in the lower part of the page.</p>
+
+<figure class="">
+  <img src="/assets/images/tutorial/detail-1.png" alt="Term details" /><figcaption>
+      Term details.
+
+    </figcaption></figure>
+
+<h3 id="marking-occurrences-of-terms-and-their-definitions-in-documents">Marking occurrences of terms and their definitions in documents</h3>
+
+<p>Vocabularies are usually interconnected to the documents containing their definitions and occurrences. Open  ‘Vocabularies’ in the left panel and search for the vocabulary ‘Vocabulary of Building Act no. 72/2004 of the New Zealand’. In the vocabulary detail open tab ‘Document’.</p>
+
+<figure class="">
+  <img src="/assets/images/tutorial/vocab-detail.png" alt="Detail of a document assigned to the vocabulary" /><figcaption>
+      Detail of a document assigned to the vocabulary.
+
+    </figcaption></figure>
+
+<p>Document information contain document label, its description and list of assigned terms. Those terms have marked occurrences in the document. Below is a list of files belonging to the document. Building Act has only one called ‘building-act.html’. By clicking ‘Show Content’ next to the label you get to the file content.</p>
+
+<figure class="">
+  <img src="/assets/images/tutorial/document-content.png" alt="Content of a document with marked term occurrences and definition" /><figcaption>
+      Content of a document with marked term occurrences and definition.
+
+    </figcaption></figure>
+
+<p>Green colored terms are occurrences of terms, blue colored are definitions of terms. Click on them to show pop-up with information which term is marked. You can remove or edit the occurrence in the pop-up. Clicking the label redirects you to the term detail.</p>
+
+<figure class="">
+  <img src="/assets/images/tutorial/occurrence.png" alt="Occurrence detail" /><figcaption>
+      Occurrence detail.
+
+    </figcaption></figure>
+
+<h3 id="creating-new-vocabularies-and-terms">Creating new vocabularies and terms</h3>
+
+<p>In this task we will create new vocabulary, assign a document to it and create few terms. Make sure you have at leas ‘Editor’ account.</p>
+
+<h3 id="creating-new-vocabulary">Creating new vocabulary</h3>
+
+<p>Click ‘New Vocabulary’ in the left panel. In the Create vocabulary form fill label and description.</p>
+
+<figure class="">
+  <img src="/assets/images/tutorial/new-vocab.png" alt="Create new vocabulary form" /><figcaption>
+      Create new vocabulary form.
+
+    </figcaption></figure>
+
+<p>During the creation of a vocabulary, a document with a file can be created and assigned to it. If you want to mark occurrences in the file later, upload file in HTML (other formats may be uploaded, but cannot yet be marked or analyzed). Download any legislation document from EUR-Lex in the HTML format, e.g. <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:22016A1019(01)&amp;from=EN">Paris Agreement</a>. In the create vocabulary dialogue, click ‘+ Add’ next to the Files below Description and select the downloaded HTML file. Fill matching label and click ‘Upload’ and then ‘Create’to create vocabulary.</p>
+
+<p>In the upper right corner of the page appear several green popups confirming the successful creation of the new vocabulary. They disappear in a while.</p>
+
+<figure class="">
+  <img src="/assets/images/tutorial/vocabulary.png" alt="New vocabulary is successfully created" /><figcaption>
+      New vocabulary is successfully created.
+
+    </figcaption></figure>
+
+<h4 id="creating-new-terms">Creating new terms</h4>
+
+<p>Terms may be created in the vocabulary detail or directly in the file of a document. This part of tutorial focuses on the creation of terms from the vocabulary.</p>
+
+<p>Go into the Terms tab in the detail of your vocabulary (it shall be open as you open the vocabulary detail). Click a button ‘+ New term’.</p>
+
+<p>Fill the following attributes in the new term dialogue:</p>
+
+<ul>
+  <li>label: ‘Climate change’ – title of a term, serves for recognition and unique identification within the vocabulary,</li>
+  <li>synonyms: ‘Climate emergency’ – alternate titles or names. Serves mostly for annotation and search. Synonym must be confirmed by clicking ‘+ Add’,</li>
+  <li>definition, text: ‘A change of climate which is attributed directly or indirectly to human activity that alters the composition of the global atmosphere and which is in addition to natural climate variability observed over comparable time periods.’ – unique definition of a term in a given context, usually marked in the document. Every term has exactly one definition,</li>
+  <li>definition, source: ‘https://unfccc.int/resource/docs/convkp/conveng.pdf, Article 1, 2.’ – mark a source of definition as a text or link to the external source.</li>
+</ul>
+
+<p>Leave other fields blank and click ‘Create and Start New’.</p>
+
+<figure class="">
+  <img src="/assets/images/tutorial/climate-change.png" alt="Creation of a new term" /><figcaption>
+      Creation of a new term.
+
+    </figcaption></figure>
+
+<p>In the similar way create terms ‘Climate system’, ‘Emmissions’ and ‘Greenhouse gases’. They are defined in the UNFCCC document, too.</p>
+
+<p>Upper part of dialogue allows users to add tab with different language. Every deployment has one default (and required) language. For live demo deployment it is English.</p>
+
+<h4 id="term-control-and-editing">Term control and editing</h4>
+
+<p>When you go back to the vocabulary, tab ‘Terms’ is filled with the terms we have just created. Every term has a colored dot before the label. Its color stands for the term completeness.</p>
+
+<figure class="">
+  <img src="/assets/images/tutorial/validation.png" alt="List of new terms" /><figcaption>
+      List of new terms.
+
+    </figcaption></figure>
+
+<p>Open one of the terms and check the tab ‘Validation’.</p>
+
+<figure class="">
+  <img src="/assets/images/tutorial/control.png" alt="Results of the term completeness control" /><figcaption>
+      Results of the term completeness control.
+
+    </figcaption></figure>
+
+<p>The picture above shows some of the validation results . No results mean complete term. We will fix the term by the term editing. Click ‘Edit’ in the upper right corner of the term detail. Shown dialogue is same as for the term creation, but attribute values are already filled.</p>
+
+<p><strong>The concept does not have defined nor inferred content type</strong></p>
+
+<p>Content types define the character of a term and is important to interconnect terms within the semantic models and inference of new knowledge. We distinguish types (‘car manufacturer’) and individuals (‘Ford’) in four basic categories:</p>
+
+<ul>
+  <li>object/object type, – independent elements changing over time,</li>
+  <li>intrinsic trope/intrinsic trope type – qualitative or quantitative trope dependent on object,</li>
+  <li>relator/relator type – interconnection of two (or more) objects dependent on them,</li>
+  <li>event/event type – independent element temporally immutable (completely finished in past).</li>
+</ul>
+
+<p>Value of the attribute ‘Type’ of term ‘Emmissions’ set to ‘Object type’.</p>
+
+<p><strong>The term does not have a source</strong></p>
+
+<p>Definition of a term consists of a text and a source. Both elements are required for 100% completeness of a term. Fill a text (e.g. Article 1, 2. of UNFCCC) to the source field to get rid of this result.</p>
+
+<p><strong>The term does not have a parent</strong></p>
+
+<p>Terms in TermIt have hierarchical structure. Attribute ‘Parent terms’ may link to the term from the same or imported (described further in tutorial) vocabulary.</p>
+
+<p>Check the validation tab again. Some of the results shall disappear. The corrected terms have now green dot next to it.</p>
+
+<p>By editing, you may fix other terms completeness as well.</p>
+
+<h3 id="annotate-documents">Annotate documents</h3>
+
+<p>This part of tutorial works with the document uploaded during the vocabulary creation. In the vocabulary details open tab ‘Document’ and ‘Show Content’ of Paris Agreement.</p>
+
+<figure class="">
+  <img src="/assets/images/tutorial/show-file.png" alt="Show a file belonging to the document assigned to the vocabulary" /><figcaption>
+      Show a file belonging to the document assigned to the vocabulary.
+
+    </figcaption></figure>
+
+<p>Vocabulary already contains some terms (those created directly in the vocabulary). Run the text analysis of a file using our vocabulary. In the upper bar click ‘Analyze’. In the pop-up select your vocabulary and click ‘Analyze’ in the pop-up.</p>
+
+<figure class="">
+  <img src="/assets/images/tutorial/analyze.png" alt="Dialogue for selection of a vocabulary used for analysis" /><figcaption>
+      Dialogue for selection of a vocabulary used for analysis.
+
+    </figcaption></figure>
+
+<p>Analyze may take some time (based on the file size). Analysis results are suggested occurrences of existing terms and suggestions of new terms based on the frequency of their occurrence in the document.</p>
+
+<figure class="">
+  <img src="/assets/images/tutorial/analysis-output.png" alt="File analysis results" /><figcaption>
+      File analysis results.
+
+    </figcaption></figure>
+
+<h4 id="term-occurrence-confirmation">Term occurrence confirmation</h4>
+
+<p>Terms marked green with dotted border are suggested occurrences of existing terms. Click on one of them to see pop-up with a suggestion. ‘Tick’ for the confirmation of the occurrence of suggested term or click a pencil symbol to select other existing term. Trash can symbol removes the occurrence and cross closes pop-up.</p>
+
+<figure class="">
+  <img src="/assets/images/tutorial/confim-occurrence.png" alt="Confirmation of suggested occurrence of an existing term" /><figcaption>
+      Confirmation of suggested occurrence of an existing term.
+
+    </figcaption></figure>
+
+<h4 id="creating-new-term-based-on-a-suggestion">Creating new term based on a suggestion</h4>
+
+<p>Terms marked red with a dotted border are suggested occurrences of terms that do not yet exist. Open a pop-up by clicking the term. You may select an existing term or click ‘+ Add’ to create a new one.</p>
+
+<figure class="">
+  <img src="/assets/images/tutorial/create-suggested-term.png" alt="Creation of a new term based on a suggested occurrence" /><figcaption>
+      Creation of a new term based on a suggested occurrence.
+
+    </figcaption></figure>
+
+<p>New pop-up appears. Dialogue is very similar to the creation of a new term directly from vocabulary with one exception. Definition of a term may be selected directly from the text of a document. Click ‘Select definition’, than mark a definition text from the file. It appears in the form. You may edit it.</p>
+
+<figure class="">
+  <img src="/assets/images/tutorial/select-definition.png" alt="Dialogue to create a new term from the text of a document file" /><figcaption>
+      Dialogue to create a new term from the text of a document file.
+
+    </figcaption></figure>
+
+<p>After creating a term its occurrence is marked green and its definition blue.</p>
+
+<figure class="">
+  <img src="/assets/images/tutorial/occurrence-definition.png" alt="Marking of term occurrence and definition" /><figcaption>
+      Marking of term occurrence and definition.
+
+    </figcaption></figure>
+
+<h4 id="creating-new-term-from-text">Creating new term from text</h4>
+
+<p>Term may be created even if it was not suggested automatically by the annotator. Select a text with the term you want to create to show a pop-up. You may choose between ‘Mark term occurrence’, where you can either select existing term or create a new one in the same way as in the previous section, opr you my mark a definition of a term.</p>
+
+<figure class="">
+  <img src="/assets/images/tutorial-cs/select-text.png" alt="Selection of a text for creation of a an occurrence or definition" /><figcaption>
+      Selection of a text for creation of a an occurrence or definition.
+
+    </figcaption></figure>
+
+<h4 id="mark-term-definition">Mark term definition</h4>
+
+<p>From the text selection pop-up choose ‘Mark term definition’. Select a term whose definition was selected. Then you see a pop-up with the selected text and source, where you may edit the text and add source. If you select a term that already has a definition, you can see both new and old definition text and source, but you may edit only the new one, which remains after saving.</p>
+
+<figure class="">
+  <img src="/assets/images/tutorial-cs/defintion.png" alt="Edit definition text and source" /><figcaption>
+      Edit definition text and source.
+
+    </figcaption></figure>
+
 
         
       </section>
@@ -268,6 +641,7 @@ Its based on the google sheets tutorial.</p>
         <!-- start custom footer snippets -->
 
 <!-- end custom footer snippets -->
+
         <div class="page__footer-follow">
   <ul class="social-icons">
     
@@ -280,6 +654,8 @@ Its based on the google sheets tutorial.</p>
       
         
       
+        
+          <li><a href="https://github.com/kbss-cvut/termit" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
         
       
         
@@ -296,7 +672,7 @@ Its based on the google sheets tutorial.</p>
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2021 Knowledge-based and Software Systems Group. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2022 Knowledge-based and Software Systems Group. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

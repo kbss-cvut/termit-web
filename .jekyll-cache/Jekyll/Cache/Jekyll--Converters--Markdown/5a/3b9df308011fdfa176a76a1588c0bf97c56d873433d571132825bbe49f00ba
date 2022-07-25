@@ -1,0 +1,124 @@
+I"�<h1 id="o-termitu">O TermItu</h1>
+
+<p>TermIt je systém pro správu slovníků a pojmů umožňující jejich propojování do legislatvních nebo jiných dokumentů a dalších slovníků. Umožňuje vytvořit slovník pojmů obsažených v dokumentu, pevně definovat pojmy podle jejich významu a pomocí funkčních vztahů je propojit s pojmy z jiných slovníků.</p>
+
+<p>Motivací k tvorbě systému TermIt byla potřeba popsat pojmy používané různými skupinami expertů tak, aby si navzájem rozuměli bez nutnosti učit se další názvosloví. Toho nebylo možné dosáhnout bez toho, aby se z doménových expertů stali též experti ontologičtí. Nástroj TermIt umožňuje expertům na danou doménu vytvářet glosáře – seznamy pojmů – a propojovat jejich pojmy s dalšími slovníky, ať už na úrovni jiné domény nebo nadřazené legislativy.</p>
+
+<h2 id="nasazení-systému-termit">Nasazení systému TermIt</h2>
+
+<p>TermIt je open-source projekt. Jeho základní verze je vyvíjena na <a href="https://github.com/kbss-cvut/termit">GitHubu</a>. Pro pokrytí specifických potřeb některých zákazníků byly vytvořeny speciální verze systému. TermIt je v současnosti nasazen v těchto organizacích:</p>
+
+<div class="feature__wrapper">
+
+  
+    <div class="feature__item--right">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/assets/images/about/deployment1.jpg" alt="Nasazení na IPR" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">TermIt nasazený na IPR</h2>
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>TermIt běží na Institutu plánování a rozvoje hlavního města Prahy (IPR) od roku 2021. Od samého začátku byl systém TermIt vytvářen v projektu OPPPR a IPR testoval jeho použitelnost k popisu Metropolitního plánu Prahy a jeho navázání na legislativní pojmy. Dnes je TermIt na IPR používán k systematizaci terminologií v dalších projektech, jako například Jednotný výměnný formát digitální technické mapy (JVF DTM) nebo Informační model budov (BIM).</p>
+
+            </div>
+          
+
+          
+            <p><a href="https://termit.fel.cvut.cz/ipr/#/public" class="btn ">Podívej se na TermIt na IPR</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+
+</div>
+
+<div class="feature__wrapper">
+
+  
+    <div class="feature__item--left">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/assets/images/about/deployment2.jpg" alt="Nasazení v KODI" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">TermIt nasazení v KODI</h2>
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>Ministerstvo vnitra České republiky zapracovao TermIt jako součást výrobní linky pro tvorby otevřených dat, včetně odpovídající dokumentace. TermIt slouží jako nástroj pro tvorbu glosářů legislativních slovníků. Ty jsou pak používány k anotaci datových sad a k vytváření propojení mezi legislativními dokumenty. Obsah tohoto nasazení zatím není veřejně přístupný.</p>
+
+            </div>
+          
+
+          
+        </div>
+      </div>
+    </div>
+  
+
+</div>
+
+<p><a href="/cs/install">Nainstalujte si</a> a vyzkoušejte si základní verzi. Pokud vám chybí specifická funkcionalita, nebojte se nás kontaktovat <a href="mailto:petr.kremen@fel.cvut.cz">e-mailem</a>, nebo nahlaště chyby či požadavky v <a href="https://github.com/kbss-cvut/termit-ui">tomto repozitáři</a>. TermIt je částečně modulární systém a můžeme ho nasadit v podobě specifické pro Vaše potřeby.</p>
+
+<h2 id="živé-demo">Živé demo</h2>
+
+<div class="feature__wrapper">
+
+  
+    <div class="feature__item--right">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/assets/images/about/demo.png" alt="Živé demo" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">Živé demo</h2>
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>Uživatelé si mohou vyzkoušet systém TermIt v demo verzi s omezeným přístupem. V demo verzi lze vyhledávat ve slovnících a pojmech a obsahuje mimo jiné Metropolitní plán Prahy, Stavební zákony České republiky a Nového Zélandu.</p>
+
+            </div>
+          
+
+          
+            <p><a href="https://kbss.felk.cvut.cz/termit-demo/" class="btn ">Vyzkoušej demo</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+
+</div>
+
+<h1 id="chci-přispět">Chci přispět</h1>
+
+<p>Pokud se chcete zůčastnit vývoje systému TermIt, forkněte si odpovídající repozítář:</p>
+<ul>
+  <li><a href="https://github.com/kbss-cvut/termit-ui">frontend</a></li>
+  <li><a href="https://github.com/kbss-cvut/termit">backend</a></li>
+  <li><a href="https://github.com/kbss-cvut/termit-docker">instrumentace dockeru</a>
+a otevřete pull request.</li>
+</ul>
+:ET

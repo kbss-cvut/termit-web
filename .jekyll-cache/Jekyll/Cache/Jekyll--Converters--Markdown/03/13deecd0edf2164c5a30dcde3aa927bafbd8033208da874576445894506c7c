@@ -1,0 +1,81 @@
+I"{<h1 id="technické-detaily">Technické detaily</h1>
+
+<p>Tato stránka obsahuje další technické pozadí systému TermIt. Popisuje architekturu systému, knihovny, které jsme vyvinuli a které TermIt používá a datový model použitý v základní verzi TermItu.</p>
+
+<h2 id="technologie-a-architektura">Technologie a architektura</h2>
+
+<p>Technicky je TermIt webová aplikace. Systém je rozdělen do dvou sub-projektů: jeden reprezentuje serverovou část, druhý klientskou část. Architektura systému je ukázána v následujícím diagramu.</p>
+
+<figure class="">
+  <img src="/assets/images/technical-details/termit-architecture.png" alt="TermIt architecture diagram" /><figcaption>
+      Diagram architektury systému TermIt
+
+    </figcaption></figure>
+
+<h3 id="serverová-část-systému-termit">Serverová část systému TermIt</h3>
+
+<p>Serverová část systému je napsána v jazyce Java (8 nebo novější). Jedná se o Java aplikaci založenou na <a href="https://spring.io/projects/spring-boot">Spring Boot</a> s REST API podporujícícm JSON a <a href="https://json-ld.org/">JSON-LD</a>. TermIt běží nad triple storem, kam ukládá všechna data. Systém byl testován nad <a href="https://rdf4j.org/">RDF4J</a> a <a href="https://graphdb.ontotext.com/">GraphDB</a>, která poskytuje stabilnější výkon.</p>
+
+<p>Detailní popis konfigurace a vývoje serverové části TermItu je k nahlédnutí v <a href="https://github.com/kbss-cvut/termit">tomto GitHub repositáři</a>.</p>
+
+<h3 id="klientská-část-systému-termit">Klientská část systému TermIt</h3>
+
+<p>Klientská část systému je napsaná v TypeScriptu, používající <a href="https://reactjs.org/">React framework</a>. Ten je použit pro svou jednoduchost a rozsáhlý ekosystém knihoven.</p>
+
+<p>Zdrojový kód klientské části je v <a href="https://github.com/kbss-cvut/termit-ui">tomto GitHub repositáři</a>, který obsahuje i základní vývojářskou dokumentaci.</p>
+
+<h3 id="integrace-s-nástrojem-annotace">Integrace s nástrojem Annotace</h3>
+
+<p>Jednou z nejdůležitějších funkcí systému TermIt je jeho schopnost analyzovat obsah dokumentů pro vyhledávání výskytu existujících pojmů a navrhování nových pojmů podle jejich významu v textu. Textovou analýzu zajišťuje samostatně vyvinutá open-source knihovna <strong>Annotace</strong>, kterou můžete najít v <a href="https://github.com/kbss-cvut/annotace">jejím GitHub repozitáři</a>.</p>
+
+<h3 id="zajímavé-knihovny">Zajímavé knihovny</h3>
+
+<p>TermIt používá několik knihoven vyvinutých pro účely sémantického webu a sémantických dat, a které by mohly zajímat i další vývojáře v této obasti. Jsou shrnuty v následujícím seznamu včetně základního popisu a odkazu.</p>
+
+<h4 id="jopa">JOPA</h4>
+
+<p><a href="https://github.com/kbss-cvut/jopa">JOPA</a> (Java OWL Persistence API) je perzistentní knihovna pro sémantická data. Umožuje práci s doménovým modelem založeným na POJO, který je uložen v podobě RDF dat v triple storu. Silná inspirace v JPA je vidět i v přítomnosti transakcí, mapování výsledků dotazů a cachování za účelem co nejhladšího vývoje informačního systému založeného na principech sémantického webu.</p>
+
+<p>Pro integraci JOPA s deklarativní správou transakcí Springu (<code class="language-plaintext highlighter-rouge">@Transactional</code>), která je použita v systému TermIt je zde i <a href="https://github.com/ledsoft/jopa-spring-transaction">tato knihovna</a>.</p>
+
+<h4 id="jb4json-ld">JB4JSON-LD</h4>
+<p><a href="https://github.com/kbss-cvut/jb4jsonld">JB4JSON-LD</a> (Java Binding for JSON-LD) je knihovna pro snadné mapování POJO na JSON-LD a naopak. Integruje se s Jacksonem, takže použití v aplikaci je otázkou pouze několika řádek kódu.</p>
+
+<h2 id="datový-model">Datový model</h2>
+
+<p>Slovníky modelované v systému TermIt používají pro data dva datové modely – ontologii Popis dat a TermIt ontologii. Oba modely byly vytvořeny skupinou Knowledge-based and Software Systems Group (KBSS).</p>
+
+<h3 id="ontologie-popis-dat">Ontologie popis dat</h3>
+
+<p>Základní ontologie použitá k popisu (libolovných) dat se jmenuje Popis dat a její dokumentaci <a href="http://onto.fel.cvut.cz/ontologies/slovnik/agendovy/popis-dat/current/index-cs.html">najdete na této stránce</a>. Ontologie je založena na Unified Foundational Ontology (UFO) a je určena k popisu libovolných datových zdrojů, např. databází, dat v různých souborových formátech, souborů atd.</p>
+
+<p>Současnou verzi ontologie Popis dat můžete najít <a href="https://onto.fel.cvut.cz/ontologies/page/slovnik/agendovy/popis-dat/model/verze/1.0.1">zde</a> ve formátu turtle nebo v RDF/XML.</p>
+
+<p>Následující sekce popisují základní třídy definované v datovém modelu.</p>
+
+<h4 id="slovník">Slovník</h4>
+<p>Slovník reprezentuje ontologii, která se skládá z glosáře a modelu.</p>
+
+<h4 id="glosář">Glosář</h4>
+<p>Glosář je seznam všech pojmů ve slovníku a používá koncepty ze slovníku SKOS.</p>
+
+<h4 id="model">Model</h4>
+<p>Model propojuje pojmy definované v glosáři za pomoci ontologických vztahů, především pocházejících z ontologie UFO.</p>
+
+<h4 id="term">Term</h4>
+<p>Term je libovolný pojem ve slovníku.</p>
+
+<h4 id="zdroj">Zdroj</h4>
+<p>Zdroj představuje původ dat, která jsou modelována, například databáze, soubor atd.</p>
+
+<h4 id="atribut">Atribut</h4>
+<p>Atribut je speciální případem termu, který představuje vlastnost závislou na předmětu popsaném ve zdroji (např. sloupec v databázové tabulce, vlastnost popsaná v dokumentu atd.).</p>
+
+<h3 id="ontologie-termit">Ontologie TermIt</h3>
+
+<p>Ontologie TermIt je vytvářena během vývoje systému TermIt. Dědí od obecné ontologie Popis dat a rozšiřuje jí o koncepty používané specificky v systému TermIt.</p>
+
+<p>Ontologie TermIt obsahuje například pojmy popisující anotaci textů, výskyty pojmů ve zdrojích a správu uživatelů.</p>
+
+<p>Aktuální verze ontologie TermIt je součástí základní verze termitu a je dostupná z <a href="https://github.com/kbss-cvut/termit/tree/master/ontology">repozitáře TermItu na GitHubu</a>.</p>
+:ET

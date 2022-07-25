@@ -1,0 +1,10 @@
+I"�<h1 id="instalace">Instalace</h1>
+
+<p>TermIt může být snadno nainstalován za použití Docker Compose, který nastaví všechny nezbytné služby a závislosti. Detaily jsou popsány <a href="https://github.com/kbss-cvut/termit-docker">na samostatné stránce</a>.</p>
+
+<p>Alternativním (a složitějším) způsobem instalace je samostatný build a instalace a nezávislé nastavení služeb. Pro samostatnou instalaci a nastavení služeb se řiďte instrukcemi v těchto odkazech:</p>
+<ul>
+  <li><a href="https://github.com/kbss-cvut/termit-ui">TermIt</a></li>
+  <li><a href="https://github.com/kbss-cvut/termit">TermIt Server</a></li>
+</ul>
+:ET

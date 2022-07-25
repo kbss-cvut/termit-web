@@ -1,0 +1,33 @@
+I"�
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          TermIt
+          <span class="site-subtitle">Manage your terms</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/cs/about" title="O systému TermIt">O TermItu</a>
+            </li><li class="masthead__menu-item">
+              <a href="/cs/install" title="Průvodce instalací ">Instalace</a>
+            </li><li class="masthead__menu-item">
+              <a href="/cs/tutorial" title="Návod na použití systému TermIt">Tutoriál</a>
+            </li><li class="masthead__menu-item">
+              <a href="/cs/technical-details" title="Technické detaily o sytsému TermIt">Technické detaily</a>
+            </li><li class="masthead__menu-item">
+              <a href="/" title="Anglicky">🇬🇧</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+:ET

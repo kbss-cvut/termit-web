@@ -1,0 +1,74 @@
+I"�<h1 id="running-deployments">Running deployments</h1>
+<p>This page displays current deployments.</p>
+
+<p>TermIt is partly modular system and we can deploy it specifically for your needs.</p>
+
+<div class="feature__wrapper">
+
+  
+    <div class="feature__item--right">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/assets/images/deployments/deployment1.jpg" alt="Nasazení prvního deploymentu" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">First deployment</h2>
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>Total description of running deployment on IPR.</p>
+
+            </div>
+          
+
+          
+            <p><a href="/link-na-ipr" class="btn ">Click here to see it</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+
+</div>
+
+<div class="feature__wrapper">
+
+  
+    <div class="feature__item--left">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/assets/images/deployments/deployment2.jpg" alt="Nasazení druhého deploymentu" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">Second deployment</h2>
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>Total description of running deployment in KODI.</p>
+
+            </div>
+          
+
+          
+            <p><a href="/link-na-kodi" class="btn ">Click here to see it</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+
+</div>
+
+:ET

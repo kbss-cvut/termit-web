@@ -1,0 +1,100 @@
+I"ÿ
+<header class="lang__options__index">
+  
+  <a href="/cs/" class="cs" title="View in cs"></a>
+  
+  <a href="/" class="en" title="View in en"></a>
+  
+</header>
+
+<div class="feature__wrapper">
+
+  
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/assets/images/installation.jpg" alt="" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">Installation</h2>
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>Tool supports dockerization, so installation is very easy.</p>
+
+            </div>
+          
+
+          
+            <p><a href="/install" class="btn ">Download and install</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/assets/images/tutorial.jpg" alt="" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">Tutorial</h2>
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>TermIt solves various problems, from creating vocabularies to annotating resources.</p>
+
+            </div>
+          
+
+          
+            <p><a href="/tutorial" class="btn ">Teach me how</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/assets/images/data-model.jpg" alt="" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">Technical details</h2>
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>TermIt architecture, interesting libraries used within, or the data model used within TermIt are some of the technical details of the system.</p>
+
+            </div>
+          
+
+          
+            <p><a href="/technical-details" class="btn ">Introduce me to the details</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+
+</div>
+
+:ET

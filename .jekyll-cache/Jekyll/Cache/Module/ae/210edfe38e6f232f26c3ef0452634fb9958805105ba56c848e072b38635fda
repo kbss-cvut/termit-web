@@ -1,0 +1,33 @@
+I"�
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          TermIt
+          <span class="site-subtitle">Manage your terms</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about" title="About the TermIt project">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/install" title="Installation guide">Install</a>
+            </li><li class="masthead__menu-item">
+              <a href="/tutorial" title="Tutorials on usage of TermIt">Tutorial</a>
+            </li><li class="masthead__menu-item">
+              <a href="/technical-details" title="Technical details about TermIt">Technical details</a>
+            </li><li class="masthead__menu-item">
+              <a href="/cs" title="Czech">🇨🇿</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+:ET
