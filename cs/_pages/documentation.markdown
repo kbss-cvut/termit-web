@@ -1,8 +1,8 @@
 ---
 layout: single-cs
-permalink: /cs/documentation
+permalink: /cs/dokumentace
 lang: cs
-lang-ref: documentation
+lang-ref: dokumentace
 title: Dokumentace
 #classes: wide
 author_profile: true
