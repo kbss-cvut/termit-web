@@ -1,4 +1,9 @@
 .idea
 *.iml
-_site
+_site/
+.jekyll-metadata
+.jekyll-cache/
+.sass-cache
+.bundle/
+vendor/
 test

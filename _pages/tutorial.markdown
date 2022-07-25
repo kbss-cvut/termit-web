@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: single
-# title: Tutorial
+title: Tutorial
 permalink: /tutorial
 lang: en
 lang-ref: tutorial
@@ -14,7 +14,7 @@ header:
 toc: true
 ---
 
-# Tutorial
+<!-- # Tutorial -->
 
 TermIt is designed for terms and vocabularies management. It allows users to assign terms from the specific vocabularies to the documents or any other resources and interconnect them. The basic tutorial describes following activities:
 * searching terms and browsing vocabularies,

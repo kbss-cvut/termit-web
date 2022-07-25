@@ -13,7 +13,7 @@ header:
   caption: "Photo credit: [**Clint Patterson**](https://unsplash.com/@cbpsc1?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [**Unsplash**](http://unsplash.com/)"
 ---
 
-# Instalace
+<!-- # Instalace -->
 
 TermIt může být snadno nainstalován za použití Docker Compose, který nastaví všechny nezbytné služby a závislosti. Detaily jsou popsány [na samostatné stránce](https://github.com/kbss-cvut/termit-docker).
 
