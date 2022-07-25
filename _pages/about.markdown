@@ -1,6 +1,6 @@
 ---
 layout: single
-# title: About
+title: About TermIt
 permalink: /about
 lang: en
 lang-ref: about
@@ -34,7 +34,7 @@ feature_row3:
     url: https://kbss.felk.cvut.cz/termit-demo/
 ---
 
-# About TermIt
+<!-- # About TermIt -->
 
 TermIt is a system for management of terms and vocabularies and their interconnection to legislation (or other documents) and other vocabularies.
 
