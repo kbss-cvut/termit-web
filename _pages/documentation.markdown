@@ -15,7 +15,7 @@ toc_sticky: true
 ---
 <!-- # Documentation -->
 
-In this section, the documentation of individual features of the system TermIt will gradually appear, sorted alphabetically.
+In this section, the documentation of individual features of TermIt will gradually appear, sorted alphabetically.
 
 <!-- V této sekci se postupně objeví dokumentace jednotlivých featur systému TermIt, seřazené podle abecedy. -->
 <!-- filter only posts with category 'Documentation' and sort alphabeticaly by title-->

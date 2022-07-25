@@ -14,9 +14,9 @@ Revizi vytvoříte tlačítkem Vytvořit revizi v detailu slovníku.
 
 {% include figure image_path="/assets/images/posts/dokumentace/snapshot-1.png" alt="Revizi vytvoříte tlačítkem Vytvořit revizi v detailu slovníku." %}{: .post-image }
 
-Revize slovníku je z pohledu ontologie zároveň slovníkem, který navíc obsahuje vazbu na na původní slovník a datum vytvoření revize.
+Revize slovníku je z pohledu ontologie zároveň slovníkem, který navíc obsahuje vazbu na původní slovník a datum vytvoření revize.
 
-Při vytvoření revize slovníku jsou vytvořeny verze pojmů tohoto slovníku, které jsou, stejně jako slovník, také zároveň pojmy. Kromě vazby na původní pojmy a data vytvoření všechny patří namísto do původního slovníku do jeho revize.
+Při vytvoření revize slovníku jsou vytvořeny i revize pojmů tohoto slovníku, které jsou, stejně jako slovník, také zároveň pojmy. Kromě vazby na původní pojmy a data vytvoření všechny patří namísto do původního slovníku do jeho revize.
 
 {% include figure image_path="/assets/images/posts/dokumentace/snapshot-2.png" alt="Schéma revizí." %}{: .post-image }
 

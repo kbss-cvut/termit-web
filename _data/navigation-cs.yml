@@ -11,10 +11,10 @@ main:
     description: "Návod na použití systému TermIt"
   - title: "Technické detaily"
     url: /cs/technical-details
-    description: "Technické detaily o sytsému TermIt"
+    description: "Technické detaily o systému TermIt"
   - title: "Dokumentace"
     url: /cs/dokumentace
-    description: "Dokumentace featur"
+    description: "Dokumentace funkcí"
   - title: 🇬🇧
     url: /
     description: "Anglicky"
