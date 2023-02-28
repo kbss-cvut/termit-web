@@ -15,7 +15,7 @@ header:
 feature_row:
   - image_path: /assets/images/installation.jpg
     title: "Installation"
-    excerpt: "Tool supports dockerization, so installation is very easy."
+    excerpt: "TermIt is dockerized, so installation is very easy."
     btn_label: "Download and install"
     url: /install
   - image_path: /assets/images/tutorial.jpg
@@ -25,8 +25,8 @@ feature_row:
     btn_label: "Teach me how"
   - image_path: /assets/images/data-model.jpg
     title: "Technical details"
-    excerpt: "TermIt architecture, interesting libraries used within, or the data model used within TermIt are some of the technical details of the system."
-    btn_label: "Introduce me to the details"
+    excerpt: "TermIt architecture, interesting libraries used within, or the data model are some of the technical details described here."
+    btn_label: "Show me the details"
     url: /technical-details
 ---
 {% assign pages=site.pages | where:"lang-ref", page.lang-ref | sort: 'lang' %}

@@ -26,7 +26,7 @@ Technically, TermIt is a web application. The system is split into two sub-proje
 
 ### TermIt Backend
 
-The backend is written in Java (8 or later). It is a [Spring Boot](https://spring.io/projects/spring-boot) -based Java web application with a REST API supporting JSON and [JSON-LD](https://json-ld.org/). TermIt runs on top of a triple store where it stores all its data. It has been tested with [RDF4J](https://rdf4j.org/) and [GraphDB](https://graphdb.ontotext.com/) with GraphDB delivering more favorable performance.
+The backend is written in Java (11 or later). It is a [Spring Boot](https://spring.io/projects/spring-boot) -based Java web application with a REST API supporting JSON and [JSON-LD](https://json-ld.org/). TermIt runs on top of a triple store where it stores all its data. It has been tested with [RDF4J](https://rdf4j.org/) and [GraphDB](https://graphdb.ontotext.com/) with GraphDB delivering more favorable performance.
 
 Details on how to configure or develop the TermIt backend can be found in its [GitHub repository](https://github.com/kbss-cvut/termit).
 
