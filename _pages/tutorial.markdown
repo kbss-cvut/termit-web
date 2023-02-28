@@ -25,12 +25,12 @@ TermIt is designed for terms and vocabularies management. It allows users to ass
 Advanced tutorial and documentation describing all tools in TermIt is under construction.
 
 ## Sandbox
-The page <a href="https://kbss.felk.cvut.cz/termit-demo">https://kbss.felk.cvut.cz/termit-demo</a> contains a live demo version of TermIt. It allows various levels of access based on the user permission:
+The page <a href="https://kbss.felk.cvut.cz/termit-demo">https://kbss.felk.cvut.cz/termit-demo</a> contains a live demo version of TermIt. It allows various levels of access based on the user role:
 
-* No account -- it is possible only to browse data, it is not possible to edit term or vocabularies, show documents or other sources. Functionality is very limited. This Regime shall serve to the public to view the data.
-* Reader account -- readers may browse vocabularies, terms and sources. They can see additional details of terms and vocabularies, show definition of a term in a document and comment. They cannot edit or create new terms or vocabularies. This regime serves for users from within the organization that want to comment the work. If you register to the live demo, this is the type of account you get.
-* Editor account -- users have a full rights to browse, edit and create terms, vocabularies and sources and can also annotate documents. This regime is determined to the domain experts perfectly knowing the data. They are usually main creators of the vocabulary. This type of account must be granted by administrator.
-* Administrator account -- administrator has full access to all features, including assigning roles of other users and creating new users.
+* Guest -- it is possible only to browse data, it is not possible to edit term or vocabularies, show documents or other sources. Functionality is very limited. This regime serves to the public to view the data.
+* Reader -- readers may browse vocabularies, terms and sources. They can see additional details of terms and vocabularies, show definition of a term in a document and comment. They cannot edit or create new terms or vocabularies. This regime serves for users from within the organization that want to comment the work.
+* Editor -- users have full rights to browse, edit and create terms, vocabularies and sources and can also annotate documents. This regime is intended for domain experts. They are usually the main creators of the vocabularies. This role must be granted by an administrator. If you register to the live demo, this is the role you will get.
+* Administrator -- administrator has full access to all features, including assigning roles of other users and creating new users.
 
 We recommend installing a local instance of TermIt (use guide in <a href="/install">tab Install</a>).
 
