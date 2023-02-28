@@ -16,7 +16,7 @@ Web describes the basic features of TermIt and basic information about its autho
 
 
 ## Changes
-Current state of TermIt web is basically without content. Is is necessary to follow some rules during the content creation.
+It is necessary to follow some rules during the content creation.
 
 - Create new branch to push changes.
 - For each section is created a .md file in [_pages][_pages]. Feel free to create any content, but do not change the header (between --- lines).
