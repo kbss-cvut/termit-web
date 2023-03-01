@@ -96,6 +96,7 @@ analytics:
 # Site Author
 author:
   name             : "Knowledge-based and Software Systems Group"
+  home             : "https://kbss.felk.cvut.cz"
   avatar           : "/assets/images/about/KBSS.jpg"
   bio              : #""
   location         : "FEE CTU in Prague"
@@ -115,7 +116,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url:  "https://github.com/kbss-cvut/termit"
+      url:  "https://github.com/kbss-cvut/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
